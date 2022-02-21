@@ -7,194 +7,101 @@
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs">
   <div class="container">
-
-    <h2>About Wadah</h2>
   </div>
 </section><!-- End Breadcrumbs -->
 
 <section>
   <div class="container">
     <div class="row title">
-      
+      <div class="section-title pt-4">
+        <h2>About US</h2>
+          <div>
     </div>
+    <div class="row content mb-4">
+      <p style="text-align:justify">
+        Yayasan Wadah Titian Harapan (“Wadah”) is a non-profit organization founded on the concerns of a 
+        mother towards for the welfare of the nation, especially of the grassroots. The future of a nation 
+        lies with them. We hope that through Wadah, they can achieve a better future, building towards 
+        future generations that are more resilient, more empowered, and more dignified.
+      <br><br>
+        Wadah is an abbreviation of the words ‘Women’ and ‘Hope’ in Indonesian. Wadah has a literal meaning of  
+        ‘a place;’ however, in practice, it also refers to a broader meaning of ‘a family’ or ‘a community'.          
+      <br><br>
+        Wadah began by inviting families to be more attentive to educating the future generations. 
+        Wadah expanded its services to promoting health and strengthening the family economy, taking 
+        further steps to support and train at the grassroots level holistically.    
+      <br><br>
+        Wadah has also broadened its reach internationally with sister organizations registered in the 
+        Phillippines, Malaysia and India: Philippines Wanita dan Harapan, Inc.; Pertubuhan Wadah Kuala 
+        Lumpur & Selangor; Wadah Trust India. In 2016, Wadah was granted Special Consultative Status by 
+        the United Nations Economic and Social Council. A year later, in December 2017, Wadah received 
+        ISO 9001:2015 Certification, which was extended in December 2020.
+      </p>
+    </div>
+
+    <div class="row title">
+    </div>
+
     <div class="row content">
-      
+        <div class="container mb-3">
+              <div class="row justify-content-center pt-3 mb-3">
+                  <p class="center sizefont bold color">Our Vision</p>
+              </div>
+                <h4 class="center">Creating an empowered and dignified society</h4>
+        </div>
+
+        <div class="container mb-3">
+              <div class="row justify-content-center pt-3 mb-3">
+                  <p class="center sizefont bold color">Our Mission</p>
+              </div>
+                <h4 class="center">Empowering individuals holistically through education, health, and economic development</h4>
+        </div>
+
+        <div class="container mb-3">
+              <div class="row justify-content-center pt-3 mb-3">
+                  <p class="center sizefont bold color">Our Objectives</p>
+              </div>
+                  <h4 class="center">To produce community leaders who are well-trained, skilled and trusted in their fields</h4>
+        </div>
+
+          <div class="container mb-3">
+            <div class="row justify-content-center pt-3 mb-3">
+                <p class="center sizefont bold color">Our Values</p>
+                <h4 class="center pt-2">Godliness</h4>
+                <h4 class="center">Honesty and Sincerity</h4>
+                <h4 class="center">Inclusive</h4>
+                <h4 class="center">Humility</h4>
+                <h4 class="center">Unity</h4>
+                <h4 class="center">Diversity</h4>
+            </div>
+          </div>
+  
+          <div class="container">
+            <div class="row justify-content-center mb-3">
+                <p class="center sizefont bold color">Our Programs</p>
+            </div>
+                <h4 class="center">With the community growth in mind, WADAH conducts 
+                  various programs and activities in its supported communities</h4>
+                    <div class="pt-3 mb-0">
+                    <h4 class="center">Education</h3>
+                    <h4 class="center">Health</h3>
+                    <h4 class="center">Community Development</h3>
+                    </div>
+          </div>
+
     </div>
   </div>
 </section>
-
-
-<div class="container">
-      {{-- <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" 
-        data-aos="fade-up" data-aos-delay="200">
-          <h1>We grow to serve and  
-            <br>we serve so that others 
-            <br>may grow together with us.
-          </h1>
-            <h6>
-            Anie Hashim Djojohadikusumo, Founder
-
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-        <video width="636" height="424" controls preload="metadata">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=xMnjjAFMdBQautoplay=1" 
-              width="636" height="424" controls preload="metadata"></iframe>
-          </div>
-        </div>
-      </div> --}}
+    
+<section>
+  <div class="container background mb-3">
+    <div class="row title">
+      <div class="section-title pt-4">
+        <h2>WHAT MAKES WADAH "UNIQUE"?</h2>
+    </div>
     </div>
 
-    <style type="text/css">
-      .left { text-align: left;}
-      .right { text-align: right;}
-      .center { text-align: center;}
-      .justify { text-align: justify;}
-      .sizefont { font-size: 30px;}
-      .sizefont2 { font-size: 20px;}
-      .bold {font-weight:bold;}
-      .color {color: #208b3a}
-      .background {background-color: #f3f5fa}
-      .container-ul { position: absolute; left: 60%; transform: translatex(-50%);}
-      </style>
-
-        <div class="container">
-          <br>
-          <br>
-            
-        <div class="section-title pt-4 pb-4 ">
-          <h2>About US</h2>
-            <div>
-                      <p style="text-align:justify">
-                        Yayasan Wadah Titian Harapan (“Wadah”) is a non-profit organization founded on the concerns of a 
-                        mother towards for the welfare of the nation, especially of the grassroots. The future of a nation 
-                        lies with them. We hope that through Wadah, they can achieve a better future, building towards 
-                        future generations that are more resilient, more empowered, and more dignified.
-                      <br><br>
-                        Wadah is an abbreviation of the words ‘Women’ and ‘Hope’ in Indonesian. Wadah has a literal meaning of  
-                        ‘a place;’ however, in practice, it also refers to a broader meaning of ‘a family’ or ‘a community'.          
-                      <br><br>
-                        Wadah began by inviting families to be more attentive to educating the future generations. 
-                        Wadah expanded its services to promoting health and strengthening the family economy, taking 
-                        further steps to support and train at the grassroots level holistically.    
-                      <br><br>
-                        Wadah has also broadened its reach internationally with sister organizations registered in the 
-                        Phillippines, Malaysia and India: Philippines Wanita dan Harapan, Inc.; Pertubuhan Wadah Kuala 
-                        Lumpur & Selangor; Wadah Trust India. In 2016, Wadah was granted Special Consultative Status by 
-                        the United Nations Economic and Social Council. A year later, in December 2017, Wadah received 
-                        ISO 9001:2015 Certification, which was extended in December 2020.
-                      </p>
-                      <br>
-            </div>
-
-        </div>
-        
-        <div class="container mb-5">
-        <div class="row justify-content-center mb-3">
-          <div class="col-6">
-          <div class="col-12">
-            <p class="center sizefont bold color">Our Vision</p>
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="col-12 center">
-            <h4 class="center">Creating an empowered and dignified society</h4>
-          </div>
-        </div>
-        </div>
-      </div>
-
-      <div class="container mb-5">
-          <div class="row justify-content-center mb-3">
-            <div class="col-6">
-            <div class="col-12">
-              <p class="center sizefont bold color">Our Mission</p>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="col-12 center">
-              <h4 class="center">Empowering individuals holistically through education, health, and economic development</h4>
-            </div>
-          </div>
-          </div>
-        </div>
-
-        <div class="container mb-5">
-          <div class="row justify-content-center mb-3">
-            <div class="col-6">
-            <div class="col-12">
-              <p class="center sizefont bold color">Our Objectives</p>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="col-12 center">
-              <h4 class="center">To produce community leaders who are well-trained, skilled and trusted in their fields</h4>
-            </div>
-          </div>
-          </div>
-        </div>
-
-        <div class="container mb-5">
-          <div class="row justify-content-center mb-10">
-            <div class="col-6">
-            <div class="col-12">
-              <p class="center sizefont bold color">Our Values</p>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="col-12 center">
-              <h4 class="center"><h4>Godliness</h4>
-            </div>
-            <div class="col-12 center">
-              <h4 class="center"><h4>Honesty and Sincerity</h4>
-            </div>
-              <div class="col-12 center">
-              <h4 class="center"><h4>Inclusive</h4>
-            </div>
-              <div class="col-12 center">
-              <h4 class="center"><h4>Humility</h4>
-            </div>
-              <div class="col-12 center">
-              <h4 class="center"><h4>Unity</h4>
-            </div>
-              <div class="col-12 center">
-              <h4 class="center"><h4>Diversity</h4>
-            </div>
-            </div>
-          </div>
-          </div>
-        </div>
-
-        <div class="container mb-5">
-          <div class="row justify-content-center mb-10">
-            <div class="col-6">
-            <div class="col-12">
-              <p class="center sizefont bold color">Our Programs</p>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="col-12 center">
-              <h4 class="mb-4">With the community growth in mind, <br>WADAH conducts various programs and activities 
-                <br>in its supported communities</h4>
-              </div>
-              <div class="col-12 center">
-              <h4 class="center"><h3>Education</h3>
-            </div>
-            <div class="col-12 center">
-              <h4 class="center"><h3>Health</h3>
-            </div>
-            <div class="col-12 center">
-              <h4 class="center"><h3>Community Development</h3>
-            </div>
-            </div>
-          </div>
-          </div>
-        </div>
-        </div>
-
-
-        <div class="section-title background pt-5 pb-2">
-          <h2>WHAT MAKES WADAH "UNIQUE"?</h2>
+    <div class="row content">
           <div class="row">
             <div class="col-md-1"></div>
 		        <div class="col-md-1"></div>
@@ -236,12 +143,12 @@
 	        	<div class="col-md-1"></div>
 	        	<div class="col-md-1"></div>
 	        	<div class="col-md-1"></div>
-            </div>
-            <h4 class="bold">100% OF DONATIONS AND SPONSORSHIPS 
+            <h4 class="bold center mb-3">100% OF DONATIONS AND SPONSORSHIPS 
               <br>ARE RECEIVED AND ENJOYED
               BY ITS BENEFICIARIES</h4>
-            <br>
         </div>
+    </div>
+  </section>
 
         <div class="row">
         <div  class="col-md-12 section-title pt-4">

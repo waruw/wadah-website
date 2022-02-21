@@ -81,7 +81,6 @@
 --}}
   <main id="main">
 
-    
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
@@ -112,7 +111,7 @@
       </div>
     </section><!-- End About Us Section -->
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= Program Section ======= -->
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -191,14 +190,11 @@
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
       <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
+        <div class=" section-title">
           <h2>Contact</h2>
           <p>Call or visit.</p>
         </div>
-
-        <div class="row">
-
+        <div class="row content">
           <div class="col-lg-5 d-flex align-items-stretch left">
             <div class="info">
               <div class="address">
@@ -257,12 +253,9 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
-
         </div>
-
       </div>
-    
-    </section><!-- End Contact Section -->
+    </section> <!-- End Contact Section -->
 
   </main><!-- End #main -->
 

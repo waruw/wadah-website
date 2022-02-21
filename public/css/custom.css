@@ -15,6 +15,18 @@
     border: 2px solid #208b3a;
 } */
 
+
+.left { text-align: left;}
+.right { text-align: right;}
+.center { text-align: center;}
+.justify { text-align: justify;}
+.sizefont { font-size: 30px;}
+.sizefont2 { font-size: 20px;}
+.bold {font-weight:bold;}
+.color {color: #208b3a}
+.background {background-color: #f3f5fa}
+.container-ul { position: absolute; left: 60%; transform: translatex(-50%);}
+
 .border-news {
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
