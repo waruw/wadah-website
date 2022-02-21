@@ -1,0 +1,40 @@
+/* a .setting {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 4px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #208b3a;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #208b3a;
+} */
+
+.border-news {
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    border: 2px solid #208b3a !important;
+}
+
+.example { background-color: rgb(255, 122, 89); } 
+
+
+
+section .content{
+    padding: 0 100px !important;
+}
+
+@media screen {
+    
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    section .content{
+        padding: 0 !important;
+    }
+  }
