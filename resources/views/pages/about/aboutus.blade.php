@@ -15,7 +15,7 @@
     <div class="row title">
       <div class="section-title pt-4">
         <h2>About US</h2>
-          <div>
+      </div>
     </div>
     <div class="row content mb-4">
       <p style="text-align:justify">

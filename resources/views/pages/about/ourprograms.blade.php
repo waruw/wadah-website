@@ -29,7 +29,7 @@
     <div class="row title">
       <div class="section-title pt-4">
         <h2>Our Programs</h2>
-          <div>
+      </div>
     </div>
     <div class="row content mb-4">
 

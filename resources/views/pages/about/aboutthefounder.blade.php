@@ -14,8 +14,9 @@
       <div class="row title">
         <div class="section-title pt-4">
           <h2>The Founder</h2>
-            <div>
-      </div>
+        </div>
+      </d iv>
+
       <div class="row content mb-4">
         <p  style="text-align:justify;"> 
           <img style="float:left; margin-right: 18px; margin-bot: 40px" src="{{asset('img/founder/ahd1.jpg')}}" widht="auto" height="230";>
