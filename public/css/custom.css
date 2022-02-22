@@ -87,3 +87,21 @@ border : 1px solid red;
     padding-top: 2px;
     padding-bottom: 1,5px;
 }
+
+.donatebg {
+    width: 1400px;
+    background-color: rgba(182, 182, 182, 0.582);
+    border: 15px solid rgba(255, 255, 255, 0);
+    padding-top: 4;
+    padding: 2px;
+    margin: 4px;
+}
+
+.donatebg2 {
+    width: 1400px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 15px solid rgba(255, 255, 255, 0);
+    padding-top: 4;
+    padding: 2px;
+    margin: 4px;
+}
