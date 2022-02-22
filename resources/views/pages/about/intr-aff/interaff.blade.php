@@ -3,21 +3,6 @@
 
     <main id="main">
 
-      <style type="text/css">
-        .left { text-align: left;}
-        .right { text-align: right;}
-        .center { text-align: center;}
-        .justify { text-align: justify;}
-        .sizefont { font-size: 35px;}
-        .bold { font-weight:bold;}
-        .color { color: #208b3a}
-        .background { background-color: #f3f5fa;}
-        .backgroundd { background-color: #555;}
-        .borderr{ border: 6px solid #208b3a;}
-        .centerpic { display: block; margin-left: auto; margin-right: auto;}
-        .captioncolor { color: black;}
-        </style>
-
 <section id="breadcrumbs" class="breadcrumbs">
   <div class="container">
   </div>

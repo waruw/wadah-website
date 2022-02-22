@@ -1,7 +1,21 @@
 @extends('layouts.app')
 @section('container')
 
-    <main id="main">
+<main id="main">
+
+
+<section>
+  <div class="container">
+    <div class="row title">
+      
+    </div>
+    <div class="row content">
+      
+    </div>
+  </div>
+</section>
+
+
 
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs">
