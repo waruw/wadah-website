@@ -52,7 +52,7 @@
               <option value="1">Education</option>
               <option value="2">Health</option>
               <option value="3">Economic Development</option>
-              <option value="4">Uncategorized</option>
+              <option value="4">Miscellaneous</option>
             </select>
             </div>
 

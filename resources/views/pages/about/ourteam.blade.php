@@ -29,84 +29,55 @@
     <div class="row title">
       <div class="section-title pt-4">
         <h2>Our Team</h2>
-          <div>
+      </div>
     </div>
 
     <div class="row content">
-      <div class="row mb-0">
-        <div class="row mb-1">
-            <div class="col">
-              <div class="col-12 col-md-12"><img class="borderr centerpic" src="{{asset('img/team/ahd.jpg')}}" widht="auto" height="250";></div>
-                <div class="row center">
-                  <div class="col-12">
-                    <h5 class="mb-0">Anie Djojohadikusumo</h5>
-                    <p>President</p>
-                  </div>
-                  </div>
-            </div>
 
-            <div class="col">
-              <div class="col-12 col-md-12"><img class="borderr centerpic" src="{{asset('img/team/psl.jpg')}}" widht="auto" height="250";></div>
-                <div class="row center">
-                  <div class="col-12">
-                    <h5 class="mb-0">Paula S. N. Landowero</h5>
-                    <p>Secretary General</p>
-                  </div>
-                  </div>
+        <div class="col-md-4" style="border:1px solid red">
+          <div>
+            <img class="borderr centerpic" src="{{asset('img/team/ahd.jpg')}}" widht="auto" height="250";>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Anie Djojohadikusumo</h5>
+              <p>President</p>
             </div>
-
-            <div class="col">
-              <div class="col-12 col-md-12"><img class="borderr centerpic" src="{{asset('img/team/lj.jpg')}}" widht="auto" height="250";></div>
-                <div class="row center">
-                  <div class="col-12">
-                    <h5 class="mb-0">Lilik Juniarti</h5>
-                    <p>Treasurer</p>
-                  </div>
-                  </div>
-            </div>
-      </div>
-    </div>
-  </section>  
-
-  <section>
-    <div class="container">
-  
-      <div class="row content">
-        <div class="row mb-0">
-          <div class="row mb-1">
-              <div class="col">
-                <div class="col-12 col-md-12"><img class="borderr centerpic" src="{{asset('img/team/zs.jpg')}}" widht="auto" height="250";></div>
-                  <div class="row center">
-                    <div class="col-12">
-                    <h5 class="mb-0">Zakiyah Samal</h5>
-                    <p>Head - Operations Department</p>
-                    </div>
-                    </div>
-              </div>
-  
-              <div class="col">
-                <div class="col-12 col-md-12"><img class="borderr centerpic" src="{{asset('img/team/lp.jpg')}}" widht="auto" height="250";></div>
-                  <div class="row center">
-                    <div class="col-12">
-                      <h5 class="mb-0">Cecilia Parengkuan</h5>
-                      <p>Head - HR Department</p>
-                    </div>
-                    </div>
-              </div>
-  
-              <div class="col">
-                <div class="col-12 col-md-12"><img class="borderr centerpic" src="{{asset('img/team/yg.jpg')}}" widht="auto" height="250";></div>
-                  <div class="row center">
-                    <div class="col-12">
-                      <h5 class="mb-0">Ghewa Yohanes</h5>
-                      <p>Head - R&D Department</p>
-                    </div>
-                    </div>
-              </div>
+          </div>
+          
         </div>
-      </div>
+
+        <div class="col-md-4">
+          <img class="borderr centerpic" src="{{asset('img/team/psl.jpg')}}" widht="auto" height="250";>
+          <h5>Paula S. N. Landowero</h5>
+          <p>Secretary General</p>
+        </div>
+
+        <div class="col-md-4">
+          <img class="borderr centerpic" src="{{asset('img/team/lj.jpg')}}" widht="auto" height="250";>
+          <h5 class="mb-0">Lilik Juniarti</h5>
+          <p>Treasurer</p>
+        </div>
+
+        <div class="col-md-4">
+          <img class="borderr centerpic" src="{{asset('img/team/zs.jpg')}}" widht="auto" height="250";>
+          <h5 class="mb-0">Zakiyah Samal</h5>
+          <p>Head - Operations Department</p>
+        </div>
+
+        <div class="col-md-4">
+          <img class="borderr centerpic" src="{{asset('img/team/lp.jpg')}}" widht="auto" height="250";>
+          <h5 class="mb-0">Cecilia Parengkuan</h5>
+          <p>Head - HR Department</p>
+        </div>
+
+        <div class="col-md-4">
+          <img class="borderr centerpic" src="{{asset('img/team/yg.jpg')}}" widht="auto" height="250";>
+          <h5 class="mb-0">Ghewa Yohanes</h5>
+          <p>Head - R&D Department</p>
+        </div>
+
     </div>
-  </section>  
+  </div>
+</section>  
 
   
 

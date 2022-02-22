@@ -50,3 +50,26 @@ section .content{
         padding: 0 !important;
     }
   }
+
+.carousel-caption p {
+    background-color: rgba(61, 61, 61, 0.582);
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .carousel-caption {
+        display: inline !important;
+    }
+  }
+
+/* .bg-cap {
+    position: absolute;
+right: 15%;
+bottom: 1.25rem;
+left: 15%;
+padding-top: 1.25rem;
+padding-bottom: 1.25rem;
+color: #fff;
+text-align: center;
+border : 1px solid red;
+} */
