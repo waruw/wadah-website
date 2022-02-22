@@ -94,7 +94,7 @@
 </section>
     
 <section>
-  <div class="container background mb-3">
+  <div class="services section-bg mb-3">
     <div class="row title">
       <div class="section-title pt-4">
         <h2>WHAT MAKES WADAH "UNIQUE"?</h2>
