@@ -26,59 +26,6 @@
   </div>
 </header>
 
-
-  <!-- ======= Hero Section ======= -->
-  {{-- <section id="hero" class="d-flex align-items-center">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="{{asset('img/slide/img1.jpg')}}" widht="auto" height="700" alt="" />
-            </div>
-            <div class="carousel-item">
-              <img src="{{asset('img/slide/img2.jpg')}}" widht="auto" height="700" alt="" />
-            </div>
-            <div class="carousel-item">
-              <img src="{{asset('img/slide/img3.jpg')}}" widht="auto" height="700" alt="" />
-            </div>
-            <div class="carousel-item">
-              <img src="{{asset('img/slide/img4.jpg')}}" widht="auto" height="700" alt="" />
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>  --}}
-{{-- 
-          <h1>We grow to serve and  
-            <br>we serve so that others 
-            <br>may grow together with us.
-          </h1>
-            <h6>
-            Anie Hashim Djojohadikusumo, Founder
-            </h6>
-    
-          <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=xMnjjAFMdBQ" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-          </div>
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-         
-      </div>
-
-  </section><!-- End Hero -->
---}}
   <main id="main">
 
     <!-- ======= About Us Section ======= -->

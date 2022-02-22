@@ -14,10 +14,11 @@ class NewsController extends Controller
      */
     public function index()
     {
-        $allNews=News::latest()->paginate(5);
+        $allNews=News::latest()->paginate(1);
+        $allContent=News::latest()->paginate(4);
         $allReads=News::latest()->paginate(15);
 
-        return view('pages.media.news.news', compact('allNews', 'allReads'));
+        return view('pages.media.news.news', compact('allNews', 'allContent', 'allReads'));
     }
 
     /**
