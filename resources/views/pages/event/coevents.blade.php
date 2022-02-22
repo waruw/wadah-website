@@ -13,7 +13,7 @@
   <div class="container">
     <div class="row title">
       <div class="section-title pt-4">
-        <h2>REMAJA WADAH INDONESIA <br> (REWIN) </h2>
+        <h2>WADAH CO-SPONSORED EVENTS</h2>
       </div>
     </div>
     <div class="row content mb-5">

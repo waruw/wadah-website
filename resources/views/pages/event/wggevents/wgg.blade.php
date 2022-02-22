@@ -78,7 +78,7 @@
                 The 3rd Wadah Global Gathering, conducted on 22-23 March 2018, 
                 was about women leaders who had been working courageously and tirelessly 
                 to address the challenges confronting their societies, cultures and communities. 
-            <div class="mt-2 left">
+            <div class="mt-2 mb-2 left">
                 <a href="{{ asset('/3rd')}}" class="btn btn-secondary">Read More</a>
             </div>
         </div>
@@ -98,7 +98,7 @@
               India, Indonesia, Nepal, and the Philippines shared the stage with 
               four CNN Heroes of the Year and held the audience in their thrall 
               with their graphic tales and heart-rending aspirations.
-            <div class="mt-2 right">
+            <div class="mt-2 mb-2 right">
                 <a href="{{ asset('/2nd')}}" class="btn btn-secondary">Read More</a>
             </div>
           </div>
@@ -196,7 +196,7 @@
             Madhavi; Dr. Abdul Karim Raj; Dr. Imam Prasodjo; Fr. Rocky Evangelista; Dr. 
             Agus Priyono; Pdt Karina de Vega; Imelda Salajan; Rio and TJ Manotoc, and wonder 
             kid Kesz Valdez, were intense, rich, and varied. 
-            <div class="mt-2 left">
+            <div class="mt-2 mb-2 left">
             <a href="{{ asset('/1st')}}" class="btn btn-secondary">Read More</a>
             </div>
         </div>
@@ -217,7 +217,7 @@
               Best Practices in the areas of anti-human trafficking and poverty alleviation through 
               education, community development, micro-finance and social enterprise were high on the 
               agenda.
-            <div class="mt-2 right">
+            <div class="mt-2 mb-2 right">
               <a href="{{ asset('/1stint')}}" class="btn btn-secondary">Read More</a>
             </div>
           </div>
@@ -316,7 +316,7 @@
             The Gathering raised the visibility of the field workers and gave them 
             access to an international audience with whom they shared their tears, 
             their triumphs, their strategies to advance progress for women and Indonesian society. 
-            <div class="mt-2 left">
+            <div class="mt-2 mb-2 left">
               <a href="{{ asset('/wg')}}" class="btn btn-secondary">Read More</a>
             </div>
         </div>

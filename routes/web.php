@@ -59,7 +59,11 @@ Route::get('/india', function () {
 });
 
 Route::get('/contact-us', function () {
-    return view('pages.contactus');
+    return view('pages.involved.contactus');
+});
+
+Route::get('/join-us', function () {
+    return view('pages.involved.joinus');
 });
 
 Route::get('/donate', function () {
@@ -67,7 +71,11 @@ Route::get('/donate', function () {
 });
 
 Route::get('/coevents', function () {
-    return view('pages.event.co-events');
+    return view('pages.event.coevents');
+});
+
+Route::get('/rewin', function () {
+    return view('pages.event.rewin');
 });
 
 Route::get('/wgg', function () {
@@ -96,10 +104,6 @@ Route::get('/3rd', function () {
 
 Route::get('/blog', function () {
     return view('pages.media.blog');
-});
-
-Route::get('/join-us', function () {
-    return view('pages.media.joinus');
 });
 
 // Route::get('/news', function () {

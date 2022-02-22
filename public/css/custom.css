@@ -81,3 +81,9 @@ border : 1px solid red;
 .capcatdate {
     font-size: 8px;
 }
+
+.volunteer {
+    background-color: rgba(182, 182, 182, 0.582);
+    padding-top: 2px;
+    padding-bottom: 1,5px;
+}
