@@ -17,6 +17,7 @@
         .backgroundd { background-color: #e7e5df;}
         .borderr{ border: 6px solid #208b3a;}
         .centerpic { display: block; margin-left: auto; margin-right: auto;}
+}
         </style>
 
 <section id="breadcrumbs" class="breadcrumbs">
@@ -93,7 +94,7 @@
                 During the pandemic, Wadah has also given access to informal education 
                 to individuals through various FORUMS and WEBINARS.
             </div>
-            <div class="pt-4"> 
+            <div class="pt-4 center"> 
               <a href="{{ url('/news')}}" class="btn btn-light">Read More</a></p>
             </div>
           </div>
@@ -158,7 +159,7 @@
                 Through this, it is expected that the said individuals and groups would be 
                 instrumental in helping their families and communities in healthy living.
             </div>
-            <div class="pt-4"> 
+            <div class="pt-4 center"> 
               <a href="{{ url('/news')}}" class="btn btn-light">Read More</a></p>
             </div>
           </div>
@@ -220,7 +221,7 @@
                 Wadah Foundation assists individuals and families to be trained and skilled in 
                 managing their own potentials in order for them to become strong, empowered and dignified.
             </div>
-            <div class="pt-4"> 
+            <div class="pt-4 center"> 
               <a href="{{ url('/news')}}" class="btn btn-light">Read More</a></p>
             </div>
           </div>
