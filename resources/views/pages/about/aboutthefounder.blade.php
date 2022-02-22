@@ -48,6 +48,6 @@
   
       
     </div>
-  </section>
-                    
+</section>
+</main>                    
 @endsection
