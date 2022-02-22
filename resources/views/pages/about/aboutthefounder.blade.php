@@ -15,7 +15,7 @@
         <div class="section-title pt-4">
           <h2>The Founder</h2>
         </div>
-      </d iv>
+      </div>
 
       <div class="row content mb-4">
         <p  style="text-align:justify;"> 

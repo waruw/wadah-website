@@ -1657,12 +1657,12 @@ box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 
 /*--------------------------------------------------------------
-# Breadcrumbs
+# Breadcrumbs / tempat judul page
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 15px 0;
+  padding: 11px 0;
   background: #f3f5fa;
-  min-height: 5px;
+  min-height: 0px;
   margin-top: 60px;
 }
 

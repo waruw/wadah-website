@@ -3,53 +3,60 @@
 
     <main id="main">
 
-<!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs">
   <div class="container">
+  </div>
+</section><!-- garis atas -->
 
-    <div class="col-md-12 p-2 mb-0 backgroundd ">
-      <div class="color bold right">
-        <h2>Wadah Networks</h2>
+<section>
+  <div class="container">
+    <div class="row title">
+      <div class="section-title pt-4">
+      <h2>Wadah Networks</h2>
+      </div>
+    <div class="row content">
+      <div class="container">
+        <div class="section-title">
+          <h3>MEMBER OF:</h3>
+        </div>
+            <div class="row">
+              <div class="col"></div>
+              <div class="col-7">   
+                <ul type="disc" style="text-align:left">
+                  <h5>FILANTROPI INDONESIA</h5>
+                  <h5>MIT - J-WEL: ABDUL LATIF JAMEEL WORLD EDUCATION LAB</h5>
+                  <h5>GIVE2ASIA</h5>
+                </ul>
+              </div>
+              <div class="col"></div>
+            </div>
       </div>
     </div>
+  </div>
+</section>
 
-</section><!-- End Breadcrumbs -->
-
-<div class="container">
-        <br>
+<section>
+  <div class="container">
+    <div class="row title">
+    <div class="row content">
+      <div class="container">
         <div class="section-title">
-        <br>
-          <h3>MEMBER OF:</h3>
-        <br>
-<div class="row">
-
-                <div class="col-md-1"></div>
-                <div class="col-md-1"></div>    
-		        <div class="col-md-9">
-            <ul type="disc" style="text-align:left">
-<h5>FILANTROPI INDONESIA</h5>
-<h5>MIT - J-WEL: ABDUL LATIF JAMEEL WORLD EDUCATION LAB</h5>
-<h5>GIVE2ASIA</h5>
-<br>
-</div>
-
-<div class="container">
-        <br>
-        <div class="section-title">
-        <br>
           <h3>IN PARTNERSHIP WITH:</h3>
-        <br>
-<div class="row">
-
-                <div class="col-md-1"></div>
-                <div class="col-md-1"></div>    
-		        <div class="col-md-9">
-            <ul type="disc" style="text-align:left">
-<h5>BAREFOOT COLLEGE INTERNATIONAL</h5>
-<h5>PT. RETOTA SAKTI</h5>
-<h5>REGENCY GOVERNMENTS OF NAGEKEO</h5>
-</div>
-
+        </div>
+            <div class="row">
+              <div class="col"></div>
+              <div class="col-7">   
+                <ul type="disc" style="text-align:left">
+                  <h5>BAREFOOT COLLEGE INTERNATIONAL</h5>
+                  <h5>PT. RETOTA SAKTI</h5>
+                  <h5>REGENCY GOVERNMENTS OF NAGEKEO</h5>
+                </ul>
+              </div>
+              <div class="col"></div>
+            </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 </main><!-- End #main -->
