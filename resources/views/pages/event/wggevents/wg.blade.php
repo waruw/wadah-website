@@ -3,21 +3,22 @@
 
     <main id="main">
 
-<!-- ======= Breadcrumbs ======= -->
+<main id="main">
+
 <section id="breadcrumbs" class="breadcrumbs">
   <div class="container">
-
-    <h2></h2>
   </div>
-</section><!-- End Breadcrumbs -->
+</section><!-- garis atas -->
 
-<div class="container">
-        <br>
-        <div class="section-title">
-
+<section>
+  <div class="container">
+    <div class="row title">
+      <div class="section-title pt-4">
         <img src="{{asset('img/event/wgg.png')}}" width="150" height="127">
-        <br>
-        <br>
+        </div>
+    </div>
+    <div class="row content">
+      <div class="center mb-3">
           <h3>Wadah Gathering</h3>
           <h4>Jakarta, Indonesia</h4>
           <h4>27 - 29 May 2009</h4> <br>
@@ -30,10 +31,9 @@
               their strategies to advance progress for women and Indonesian society. 
             <br><br>
         </div>
-      </div>
 
-<div class="container">
-<div style="text-align:center">
+
+  <div class="center">
     <h3> Speakers </h3> <br>
 </div>
 <div class="row">
@@ -70,9 +70,9 @@
       <br><br>
   </div>
 
+    </div>
+  </div>
 </section>
-</div>
-<br>
 
 </main><!-- End #main -->
 
