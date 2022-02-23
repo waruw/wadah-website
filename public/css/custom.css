@@ -105,3 +105,17 @@ border : 1px solid red;
     padding: 2px;
     margin: 4px;
 }
+
+.newslastpost {
+    background-color: #ebebeb;
+    border: 15px solid #ebebeb;
+    padding-top: 4;
+    padding: 2px;
+    margin: 4px;
+}
+
+.titlelaspost {
+    font-size: 20px;
+    margin-top: 2pt;
+    font-weight: bold;
+}
