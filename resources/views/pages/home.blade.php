@@ -51,7 +51,7 @@
               Wadah is an abbreviation of the words ‘Women’ and ‘Hope’ in Indonesian. Wadah has a literal meaning of  
               'a place;’ however, in practice, it also refers to a broader meaning of ‘a family’ or ‘a community’. 
             </p>
-            <a href="{{ asset('/about-us')}}" class="btn-learn-more">Learn More</a>
+            <a href="{{ asset('/about-us')}}" class="btn-learn-more">Read More</a>
           </div>
         </div>
 
@@ -117,7 +117,7 @@
                   <a href="">{{$news->category->nama_kategori}}</a> 
                   <small class="fw-light fst-italic">{{$news->created_at->format('d/m/Y')}}</small>
                 </div>
-                    <p class="card-text" style="text-align:justify"> {!!\Illuminate\Support\Str::limit($news->article, 150, '....')!!}
+                    <p class="card-text" style="text-align:justify"> {!!\Illuminate\Support\Str::limit($news->article, 100, '....')!!}
                 <div>
                       <a href='{{route('news.show', $news->slug)}}' class="float-fix btn btn-sm btn-outline-dark">Read More</a></p>
                 </div>

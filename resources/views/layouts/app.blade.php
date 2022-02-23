@@ -144,7 +144,7 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/')}}">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/about-us')}}">About</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/news')}}">Media</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/news')}}">News</a></li>
 
             </ul>
           </div>

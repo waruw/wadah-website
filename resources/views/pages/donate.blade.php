@@ -22,7 +22,7 @@
 
     <div class="row content mb-3">
 
-      <div class="row donatebg">
+      <div class="row donatebg2">
         <div class="col-md-4">
           <h5>US$ 10<br>
             IDR 140,000
@@ -35,7 +35,7 @@
         </div>
       </div>
 
-      <div class="row donatebg2">
+      <div class="row donatebg">
         <div class="col-md-4">
           <h5>US$ 100<br>
             IDR 1,400,000
@@ -48,7 +48,7 @@
         </div>
       </div>
 
-      <div class="row donatebg">
+      <div class="row donatebg2">
         <div class="col-md-4">
           <h5>US$ 150<br>
             IDR 2,100,000
@@ -60,7 +60,7 @@
         </div>
       </div>
 
-      <div class="row donatebg2">
+      <div class="row donatebg">
         <div class="col-md-4">
           <h5>US$ 400<br>
             IDR 5,600,000
@@ -80,28 +80,31 @@
       </div>
     </div>
 
-    <div class="row content mb-3">
+    <div class="row content mb-3 center">
       <div class="row">
       
-        <div class="col-md-1"></div>
-        <div class="col-md-1"></div>
-        <div class="col-md-3"> 
-          <h5>VIA BANK TRANSFER<br>
-          <h6>YAYASAN WADAH TITIAN HARAPAN<br>
-          <p>BNI Jakarta Pusat<br>
-          <p>IDR Account: 77-7720-1679<br>
-          <p>USD Account: 77-7201-6772<br>
-          <p>Swift Code BNINIDJA</div>
+        <div class="col-md-4">
+          <h5>VIA QRIS</h5>
+          <h6>YAYASAN WADAH TITIAN HARAPAN</h6>
+          <img src="{{asset('img/donate/qrisywth.jpg')}}" width="200px" height="auto">
+        </div>
 
-        <div class="col-md-1"></div>
-        <div class="col-md-1"></div>
-        <div class="col-md-5">      
-          <h5>VIA PAYPAL</h5><br>
+        <div class="col-md-4"> 
+          <h5>VIA BANK TRANSFER</h5>
+          <h6>YAYASAN WADAH TITIAN HARAPAN</h6>
+          <p> BNI Jakarta Pusat<br>
+              IDR Account: 77-7720-1679<br>
+              USD Account: 77-7201-6772<br>
+              Swift Code BNINIDJA</p>
+        </div>
+
+        <div class="col-md-4">      
+          <h5>VIA PAYPAL</h5>
           <h6>You may also show your support to Wadah Foundation and our 
             communities by donating via PayPal. Just click on the link below:
-            <br><br>
-            <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="https://www.paypal.com/paypalme/wadahfoundation" class="btn-get-started scrollto">Donate</a> </h6>
+          </h6>
+            <div class="justify-content-lg-start">
+            <a href="https://www.paypal.com/paypalme/wadahfoundation" class="btn btn-secondary">Donate</a></p>
         </div>
       </div>
     </div>
