@@ -45,18 +45,33 @@
             <div class="carousel-inner" >
               <div class="carousel-item active">
                 <img src="{{asset('img/event/2018/1.jpg')}}" widht="auto" height="400"  alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="{{asset('img/event/2018/2.jpg')}}" widht="auto" height="400" alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="{{asset('img/event/2018/3.jpg')}}" widht="auto" height="400" alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="{{asset('img/event/2018/4.jpg')}}" widht="auto" height="400" alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="{{asset('img/event/2018/5.jpg')}}" widht="auto" height="400"  alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#wgg0" data-bs-slide="prev">
@@ -116,18 +131,33 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="{{asset('img/event/2015/1.jpg')}}" widht="auto" height="400" alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/2015/2.jpg')}}" widht="auto" height="400" alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/2015/3.jpg')}}" widht="auto" height="400" alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/2015/4.jpg')}}" widht="auto" height="400" alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/2015/5.jpg')}}" widht="auto" height="400" alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#wgg1" data-bs-slide="prev">
@@ -160,19 +190,34 @@
             </div>
             <div class="carousel-inner" >
               <div class="carousel-item active">
-                <img src="{{asset('img/event/2012/1.jpg')}}" widht="auto" height="400"  alt="" />
+                <img src="{{asset('img/event/2012/1.jpg')}}" widht="auto" height="400"  alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2012/2.jpg')}}" widht="auto" height="400" alt="" />
+                <img src="{{asset('img/event/2012/2.jpg')}}" widht="auto" height="400" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2012/3.jpg')}}" widht="auto" height="400" alt="" />
+                <img src="{{asset('img/event/2012/3.jpg')}}" widht="auto" height="400" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2012/4.jpg')}}" widht="auto" height="400" alt="" />
+                <img src="{{asset('img/event/2012/4.jpg')}}" widht="auto" height="400" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2012/5.jpg')}}" widht="auto" height="400"  alt="" />
+                <img src="{{asset('img/event/2012/5.jpg')}}" widht="auto" height="400"  alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#wgg2" data-bs-slide="prev">
@@ -235,18 +280,33 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="{{asset('img/event/2010/1.jpg')}}" widht="auto" height="400" alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/2010/2.jpg')}}" widht="auto" height="400" alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/2010/3.jpg')}}" widht="auto" height="400" alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/2010/4.jpg')}}" widht="auto" height="400" alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/2010/5.jpg')}}" widht="auto" height="400" alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#wgg3" data-bs-slide="prev">
@@ -280,18 +340,33 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="{{asset('img/event/2009/1.jpg')}}" widht="auto" height="400" alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="{{asset('img/event/2009/2.jpg')}}" widht="auto" height="400" alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="{{asset('img/event/2009/3.jpg')}}" widht="auto" height="400" alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="{{asset('img/event/2009/4.jpg')}}" widht="auto" height="400" alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
               <div class="carousel-item">
                 <img src="{{asset('img/event/2009/5.jpg')}}" widht="auto" height="400" alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#wgg4" data-bs-slide="prev">
