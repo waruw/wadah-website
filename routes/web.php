@@ -75,7 +75,15 @@ Route::get('/coevents', function () {
 });
 
 Route::get('/rewin', function () {
-    return view('pages.event.rewin');
+    return view('pages.event.rewin.rewin');
+});
+
+Route::get('/rewin', function () {
+    return view('pages.event.rewin.1strewin');
+});
+
+Route::get('/rewin', function () {
+    return view('pages.event.rewin.2ndrewin');
 });
 
 Route::get('/wgg', function () {
