@@ -1,16 +1,6 @@
 @extends('layouts.app')
 @section('container')
 
-<style type="text/css">
-  .left { text-align: left;}
-  .right { text-align: right;}
-  .center { text-align: center;}
-  .justify { text-align: justify;}
-  .progcolor { color: #208b3a}
-  .bold {font-weight:bold;}
-  .picsize { width:600px; height: 400px;}
-  .sizefont { font-size: 60px;}
-  </style>
 
 <!-- Masthead-->
 <header class="masthead">
@@ -101,7 +91,7 @@
     <section>
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title pt-5">
+        <div class="section-title">
           <h2>NEWS</h2>
         <div class="row content">
 

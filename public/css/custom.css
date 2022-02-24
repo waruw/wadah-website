@@ -52,7 +52,7 @@ section .content{
   }
 
 .carousel-caption p {
-    background-color: rgba(61, 61, 61, 0.582);
+    background-color: #208b3b3b;
 }
 
 @media only screen and (max-width: 768px) {
@@ -83,14 +83,14 @@ border : 1px solid red;
 }
 
 .volunteer {
-    background-color: rgba(182, 182, 182, 0.582);
+    background-color: #208b3b21;
     padding-top: 2px;
     padding-bottom: 1,5px;
 }
 
 .donatebg {
     width: 1400px;
-    background-color: rgba(182, 182, 182, 0.582);
+    background-color: rgba(182, 182, 182, 0.253);
     border: 15px solid rgba(255, 255, 255, 0);
     padding-top: 4;
     padding: 2px;
@@ -107,15 +107,36 @@ border : 1px solid red;
 }
 
 .newslastpost {
-    background-color: #ebebeb;
-    border: 15px solid #ebebeb;
+    background-color: #f8f9fa;
+    border: 10px solid #f8f9fa;
     padding-top: 4;
     padding: 2px;
     margin: 4px;
 }
 
 .titlelaspost {
-    font-size: 20px;
-    margin-top: 2pt;
+    font-size: 23px;
+    margin: 5px;
+    margin-left: 0px;
     font-weight: bold;
+}
+
+.newspost {
+    background-color: #f8f9fa;
+    border: 5px solid #f8f9fa;
+    padding-top: 4;
+    padding: 2px;
+    margin: 4px;
+}
+
+.titlenewspost {
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.pnewspost {
+    font-size: 14px;
+    margin-left: 0px;
 }

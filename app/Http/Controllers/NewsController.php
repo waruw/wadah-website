@@ -16,7 +16,7 @@ class NewsController extends Controller
     {
         $allNews=News::latest()->paginate(1);
         $allContent=News::latest()->paginate(4);
-        $allReads=News::latest()->paginate(15);
+        $allReads=News::latest()->paginate(12);
 
         return view('pages.media.news.news', compact('allNews', 'allContent', 'allReads'));
     }

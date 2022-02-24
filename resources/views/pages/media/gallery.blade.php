@@ -18,42 +18,34 @@
     </div>
     <div class="row content mb-5">
       
-      <div class="col-md-12 center">
-        <img src="{{asset('img/media/publication/satudasawarsawadah.jpg')}}" width="350px" height="auto">
+      <div class="row">
+        
+      <div class="col-md-6">
+        <div class="col-md-12 center">
+          <img src="{{asset('img/media/publication/satudasawarsawadah.jpg')}}" width="350px" height="auto">
+        </div>
+  
+        <div class="col-md-12">
+          <p  style="text-align:center; color:green;"> 
+            <b>Caption <br> Video </b></p>
+        </div>
       </div>
-
-      <div class="col-md-12">
-        <p  style="text-align:center; color:green;"> 
-          <b>Caption <br> Video </b></p>
+      
+      <div class="col-md-6">
+        <div class="col-md-12 center">
+          <img src="{{asset('img/media/publication/satudasawarsawadah.jpg')}}" width="350px" height="auto">
+        </div>
+  
+        <div class="col-md-12">
+          <p  style="text-align:center; color:green;"> 
+            <b>Caption <br> Video </b></p>
+        </div>
       </div>
+      
 
     </div>
 
-    <div class="row content mb-5">
-      
-        <div class="col-md-12 center">
-          <img src="{{asset('img/media/publication/satudasawarsawadah.jpg')}}" width="350px" height="auto">
-        </div>
   
-        <div class="col-md-12">
-          <p  style="text-align:center; color:green;"> 
-            <b>Caption <br> Video </b></p>
-        </div>
-  
-      </div>
-
-      <div class="row content mb-5">
-      
-        <div class="col-md-12 center">
-          <img src="{{asset('img/media/publication/satudasawarsawadah.jpg')}}" width="350px" height="auto">
-        </div>
-  
-        <div class="col-md-12">
-          <p  style="text-align:center; color:green;"> 
-            <b>Caption <br> Video </b></p>
-        </div>
-  
-      </div>
   
   </div>
 </section>
