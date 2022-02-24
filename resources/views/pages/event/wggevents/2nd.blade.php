@@ -12,7 +12,7 @@
   <div class="container">
     <div class="row title">
       <div class="section-title pt-4">
-        <img src="{{asset('img/event/wgg.png')}}" width="150" height="127">
+        <img src="{{asset('img/event/wgg/wgg.png')}}" width="150" height="127">
         </div>
     </div>
     <div class="row content">
@@ -29,7 +29,7 @@
             with four CNN Heroes of the Year and held the audience in their 
             thrall with their graphic tales and heart-rending aspirations.</p><br>
           
-          <img src="{{asset('img/event/buildingblocks.png')}}" width="300" height="110">
+          <img src="{{asset('img/event/wgg/buildingblocks.png')}}" width="300" height="110">
 
           <p>Adopting the theme, “Education: Building Blocks of a Better 
             Future,” the Next Generation made a statement and unleashed their 

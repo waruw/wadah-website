@@ -33,13 +33,15 @@
             <h4 class="right"><a>2ND REMAJA WADAH INDONESIA (REWIN)</a></h4>
             <p class="right">BANDUNG, INDONESIA</p>
             <p style="text-align:justify">
-              At the 2nd Wadah Global Gathering held in Yogyakarta, Indonesia, 
-              on March 18-20, 2015, selected youths from Afghanistan, Bhutan, 
-              India, Indonesia, Nepal, and the Philippines shared the stage with 
-              four CNN Heroes of the Year and held the audience in their thrall 
-              with their graphic tales and heart-rending aspirations.
+              The Second Wadah Indonesia Youth Program (REWIN) with the theme of “building a 
+              struggling spirit of the Indonesian teens”, was officially opened by the Chairperson 
+              of Wadah Foundation, Retnaning Tyas, in Cisalak football field, Cisalak Hamlet, 
+              Arjasari Village on Wednesday, July 13, 2016. <br> <br>
+
+              REWIN programs,  which  involved teenagers from different Wadah communities in 
+              the country, aim to train devout, noble, steadfast and confident young people.
             <div class="mt-2 mb-2 right">
-                <a href="{{ asset('/2nd')}}" class="btn btn-secondary">Read More</a>
+                <a href="{{ asset('/2ndrewin')}}" class="btn btn-secondary">Read More</a>
             </div>
           </div>
   
@@ -103,8 +105,8 @@
       <div class="col-md-12 p-3 mb-5">
         <div class="row pt-0 mb-0">
           <div class="col mb-0">
-            <h3 class="right">2016</h3>
-            <h4 class="right"><a>2ND REMAJA WADAH INDONESIA (REWIN)</a></h4>
+            <h3 class="right">2015</h3>
+            <h4 class="right"><a>1ST REMAJA WADAH INDONESIA (REWIN)</a></h4>
             <p class="right">BANDUNG, INDONESIA</p>
             <p style="text-align:justify">
               Pemuda wadah dari berbagai komunitas di tanah air yang dipimpin oleh koordinator komunitasnya, 
@@ -113,21 +115,14 @@
               pelatihan kepemimpinan dasar bagi remaja dari berbagai komunitas Wadah. Sekitar 31 pemuda 
               dari komunitas Wadah di JaBoBek, Jawa Barat, Yogyakarta dan Indonesia Timur (KTI) mengikuti 
               kegiatan ini. 
-              <br>
-
-              The activities were designed to help the youth build a positive outlook in life and 
-              teach them proper values. Giving importance to family history and the leadership of 
-              the head of the family was also emphasized during the activities. By the end of the event, 
-              the youth were expected to have a more positive response to the world so that they can 
-              grow and develop as better individuals. The committee expects that there would be a 
-              continued guidance and support from their peers and community after the completion of 
-              the said activity.
             <div class="mt-2 mb-2 right">
                 <a href="{{ asset('/1strewin')}}" class="btn btn-secondary">Read More</a>
             </div>
           </div>
   
           <div class="col pt-0 pt-lg-">
+            
+            <div class="col pt-0 pt-lg-">
             
             <div id="#wgg1" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
@@ -178,6 +173,7 @@
                 <span class="visually-hidden">Next</span>
               </button>
   
+            </div>
             </div>
             </div>
         </div>       

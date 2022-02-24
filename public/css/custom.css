@@ -140,3 +140,8 @@ border : 1px solid red;
     font-size: 14px;
     margin-left: 0px;
 }
+
+.rewin-caption p {
+    background-color: #208b3b3b;
+    width: 300px;
+}

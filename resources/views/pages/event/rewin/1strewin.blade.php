@@ -12,95 +12,161 @@
   <div class="container">
     <div class="row title">
       <div class="section-title pt-4">
-        <img src="{{asset('img/event/wgg.png')}}" width="150" height="127">
-        </div>
+        <h2>REMAJA WADAH INDONESIA <br> (REWIN) </h2>
+      </div>
     </div>
     <div class="row content">
-      <div class="center mb-3">
-          <h3>STOMP FOR CHANGE</h3>
-          <h4>1st Wadah Global Gathering</h4>
-          <h4>Bali, Indonesia</h4>
-          <h4>March 29 - 31, 2012</h4> <br>
-          <h3>Event</h3>
-          <p>More than 200 like-minded and kind-hearted individuals gathered 
-              at the  Ayana Resort and Hotel in Bali, Indonesia, in March of 
-              2012 to Stomp for Change.<br> <br>
+      <div class="center mb-0">
+          <h3>Wadah Youth Join Leadership Training in the Village of Arjasari</h3>
+          <h4>1st Remaja Wadah Indonesia (REWIN)</h4>
+          <h4>Bandung, Indonesia</h4>
+          <h4>July 29 - August 1, 2015</h4> <br>
+          <p class="justify">Wadah youths from various communities in the country, led by their community coordinators, 
+            conducted an activity in Arjasari Village, South Bandung, West Java, on July 29 to August 1, 2015. 
+            The event was named Remaja Wadah Indonesia (REWIND) which was a basic leadership training for 
+            teenagers from various Wadah communities. About 31 youths from Wadah communities in JaBoBek, 
+            West Java, Yogyakarta and Eastern Indonesia (KTI) participated in this activity.  <br> <br>
 
-              The discussions, featuring illustrious personalities led by four 
-              CNN Heroes: Efren Penaflorida, Anuradha Koirala, Robin Lim and 
-              Budi Suhardi; Dr. Pardis Madhavi; Dr. Abdul Karim Raj; Dr. Imam 
-              Prasodjo; Fr. Rocky Evangelista; Dr. Agus Priyono; Pdt Karina de 
-              Vega; Imelda Salajan; Rio and TJ Manotoc, and wonder kid Kesz 
-              Valdez, were intense, rich, and varied. </p>
+            The activities were designed to help the youth build a positive outlook in life and teach them 
+            proper values. Giving importance to family history and the leadership of the head of the family 
+            was also emphasized during the activities. By the end of the event, the youth were expected to 
+            have a more positive response to the world so that they can grow and develop as better individuals. 
+            The committee expects that there would be a continued guidance and support from their peers and 
+            community after the completion of the said activity.  <br> <br>
+
+            The opening of the activity, which was held in the center of an open field in Arjasari, was attended 
+            by Mrs. Anie Djojohadikusumo, the Patron of Wadah Foundation. Also present were the village chief of 
+            Arjasari and teachers from several schools around the area. The youth present for the REWIND event 
+            joined the prepared activities with joy and full of zeal.</p>
       </div>
-
-      <div class="center">
-        <h3> Speakers </h3> <br>
-        <H4>Stomp For Poverty<h4>
-      </div>
-      <div class="row">
-
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>    
-                <div class="col-md-9">
-                <ul type="disc" style="text-align:left">
-      <h4 style="color:#208b3a">Women Empowerment</h4><br>
-      <h5>IMAM PRASODJO</h5>
-      <h5>DR. RAJ ABDUL KARIM</h5>
-      <br>
-      <h4 style="color:#208b3a">Education - The Way Out & Up</h4><br>
-      <h5>PEFREN PEÑFLORIDA, JR.</h5>
-      <h5>GREGOR HADI NITIHARDJO</h5>
-      <h5>AGUS PRIYONO</h5>
-      <h5>MURTI BUNANTA</h5> <br>
-      </div>
-
-      <div style="text-align:center">
-      <H4>Stomp For Human Trafficking<h4>
-      </div>
-      <div class="row">
-
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>    
-                <div class="col-md-9">
-                <ul type="disc" style="text-align:left">
-      <h4 style="color:#208b3a">Prevention And Re-Integration</h4><br>
-      <h5>Pardis Mahdavi</h5>
-      <h5>Anuradha Koirala</h5>
-      <br>
-      <h4 style="color:#208b3a">Interception And Prosecution</h4><br>
-      <h5>AARON COHEN</h5>
-      <h5>IMELDA SALAJAN</h5> <br>
-      </div>
-
-      <div style="text-align:center">
-      <H4>Heroes & Their War Stories<h4>
-      </div>
-      </div>
-      <div class="row">
-
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>    
-                <div class="col-md-9">
-                <ul type="disc" style="text-align:left">
-      <h4 style="color:#208b3a"></h4><br>
-      <h5>KARINA DE VEGA</h5>
-      <h5>BUDI SOEHARDI</h5>
-      <h5>ROBIN LIM</h5><br>
-      </div>
-
-      <div class="section-title">
-
-      <p class="pt-2 mb-3">Read about the happenings at the Wadah Gathering in our newsletter below:</p>
-      <a href="{{ url('https://drive.google.com/file/d/1DdKfGnriA5BWcIATL5fCslwIpxj1ICmV/view')}}">
-        <img src="{{asset('img/media/newsletter/2012-7.jpg')}}" widht="auto" height="250"> </a>
-        <br><br>
-      </div>
-
     </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="container">
+    <div class="row title center mb-4">
+        <h4>REWIN GALLERY</h4>
+    </div>
+    <div class="row content">
+      
+    <div class="row content mb-0">
+      
+      <div class="row">
+        
+      <div class="col-md-6">
+        
+        <div id="#rewin1" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#rewin1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#rewin1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#rewin1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#rewin1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#rewin1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="{{asset('img/event/2015/1.jpg')}}" widht="auto" height="400" alt="">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Caption</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="{{asset('img/event/2015/2.jpg')}}" widht="auto" height="400" alt="">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Caption</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="{{asset('img/event/2015/3.jpg')}}" widht="auto" height="400" alt="">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Caption</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="{{asset('img/event/2015/4.jpg')}}" widht="auto" height="400" alt="">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Caption</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="{{asset('img/event/2015/5.jpg')}}" widht="auto" height="400" alt="">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Caption</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#rewin1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#rewin1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+        </div>
+
+      </div>
+      
+      <div class="col-md-6">
+       
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#rewin11" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#rewin11" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#rewin11" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#rewin11" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#rewin11" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{{asset('img/event/2015/1.jpg')}}" widht="auto" height="400" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <p>Caption</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{{asset('img/event/2015/2.jpg')}}" widht="auto" height="400" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <p>Caption</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{{asset('img/event/2015/3.jpg')}}" widht="auto" height="400" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <p>Caption</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{{asset('img/event/2015/4.jpg')}}" widht="auto" height="400" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <p>Caption</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="{{asset('img/event/2015/5.jpg')}}" widht="auto" height="400" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <p>Caption</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#rewin11" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#rewin11" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+    
+    <p class="pt-5 mb-3 center">Read about the happenings at the 1st Remaja Wadah Indonesia in our newsletter below:</p>
+    <a class="center" href="{{ url('https://drive.google.com/file/d/1VsjYAfE0mkdzdLIymPLHRw-irLVLTpf0/view')}}">
+      <img class="centerpic" src="{{asset('img/media/newsletter/2015-12.jpg')}}" widht="auto" height="250"> </a>
+        
   </div>
 </section>
 

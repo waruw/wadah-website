@@ -13,7 +13,7 @@
   <div class="container">
     <div class="row title">
       <div class="section-title pt-4">
-        <img src="{{asset('img/event/wgg.png')}}" width="300" height="267">
+        <img src="{{asset('img/event/wgg/wgg.png')}}" width="300" height="267">
         <h2 class="pt-4">Wadah Global Gathering</h2>
       </div>
     </div>
@@ -44,31 +44,31 @@
             </div>
             <div class="carousel-inner" >
               <div class="carousel-item active">
-                <img src="{{asset('img/event/2018/1.jpg')}}" widht="auto" height="400"  alt="" />
+                <img src="{{asset('img/event/wgg/2018/1.jpg')}}" widht="auto" height="400"  alt="" />
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2018/2.jpg')}}" widht="auto" height="400" alt="">
+                <img src="{{asset('img/event/wgg/2018/2.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2018/3.jpg')}}" widht="auto" height="400" alt="">
+                <img src="{{asset('img/event/wgg/2018/3.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2018/4.jpg')}}" widht="auto" height="400" alt="">
+                <img src="{{asset('img/event/wgg/2018/4.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2018/5.jpg')}}" widht="auto" height="400"  alt="">
+                <img src="{{asset('img/event/wgg/2018/5.jpg')}}" widht="auto" height="400"  alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
@@ -130,31 +130,31 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="{{asset('img/event/2015/1.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2015/1.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/2015/2.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2015/2.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/2015/3.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2015/3.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/2015/4.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2015/4.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/2015/5.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2015/5.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
@@ -190,31 +190,31 @@
             </div>
             <div class="carousel-inner" >
               <div class="carousel-item active">
-                <img src="{{asset('img/event/2012/1.jpg')}}" widht="auto" height="400"  alt="">
+                <img src="{{asset('img/event/wgg/2012/1.jpg')}}" widht="auto" height="400"  alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2012/2.jpg')}}" widht="auto" height="400" alt="">
+                <img src="{{asset('img/event/wgg/2012/2.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2012/3.jpg')}}" widht="auto" height="400" alt="">
+                <img src="{{asset('img/event/wgg/2012/3.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2012/4.jpg')}}" widht="auto" height="400" alt="">
+                <img src="{{asset('img/event/wgg/2012/4.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2012/5.jpg')}}" widht="auto" height="400"  alt="">
+                <img src="{{asset('img/event/wgg/2012/5.jpg')}}" widht="auto" height="400"  alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
@@ -279,31 +279,31 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="{{asset('img/event/2010/1.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2010/1.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/2010/2.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2010/2.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/2010/3.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2010/3.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/2010/4.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2010/4.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/2010/5.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2010/5.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
@@ -339,31 +339,31 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="{{asset('img/event/2009/1.jpg')}}" widht="auto" height="400" alt="">
+                <img src="{{asset('img/event/wgg/2009/1.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2009/2.jpg')}}" widht="auto" height="400" alt="">
+                <img src="{{asset('img/event/wgg/2009/2.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2009/3.jpg')}}" widht="auto" height="400" alt="">
+                <img src="{{asset('img/event/wgg/2009/3.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2009/4.jpg')}}" widht="auto" height="400" alt="">
+                <img src="{{asset('img/event/wgg/2009/4.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="{{asset('img/event/2009/5.jpg')}}" widht="auto" height="400" alt="">
+                <img src="{{asset('img/event/wgg/2009/5.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>

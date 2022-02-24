@@ -78,11 +78,11 @@ Route::get('/rewin', function () {
     return view('pages.event.rewin.rewin');
 });
 
-Route::get('/rewin', function () {
+Route::get('/1strewin', function () {
     return view('pages.event.rewin.1strewin');
 });
 
-Route::get('/rewin', function () {
+Route::get('/2ndrewin', function () {
     return view('pages.event.rewin.2ndrewin');
 });
 

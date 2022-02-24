@@ -12,7 +12,7 @@
   <div class="container">
     <div class="row title">
       <div class="section-title pt-4">
-        <img src="{{asset('img/event/wgg.png')}}" width="150" height="127">
+        <img src="{{asset('img/event/wgg/wgg.png')}}" width="150" height="127">
         </div>
     </div>
     <div class="row content">
