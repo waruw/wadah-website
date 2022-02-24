@@ -53,55 +53,79 @@
       
     <div class="row content mb-0">
       
-      <div class="row">
+      <div class="row center">
         
-      <div class="col-md-6">
+      <div class="col-md-12">
         
-        <div id="#rewin1" class="carousel slide" data-bs-ride="carousel">
+        <div id="1st" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#rewin1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#rewin1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#rewin1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#rewin1" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#rewin1" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          </div>
+            <button type="button" data-bs-target="#1st" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#1st" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#1st" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#1st" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#1st" data-bs-slide-to="4" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#1st" data-bs-slide-to="5" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#1st" data-bs-slide-to="6" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#1st" data-bs-slide-to="7" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#1st" data-bs-slide-to="8" aria-label="Slide 4"></button>
+           </div>
+
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="{{asset('img/event/2015/1.jpg')}}" widht="auto" height="400" alt="">
-              <div class="carousel-caption d-none d-md-block">
-                <p>Caption</p>
-              </div>
+              <img src="{{asset('img/event/rewin/1st/1.jpg')}}" widht="300" height="auto" alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Caption</p>
+                </div>
             </div>
             <div class="carousel-item">
-              <img src="{{asset('img/event/2015/2.jpg')}}" widht="auto" height="400" alt="">
+              <img src="{{asset('img/event/rewin/1st/2.jpg')}}" widht="300" height="auto" alt="" />
               <div class="carousel-caption d-none d-md-block">
                 <p>Caption</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="{{asset('img/event/2015/3.jpg')}}" widht="auto" height="400" alt="">
-              <div class="carousel-caption d-none d-md-block">
-                <p>Caption</p>
-              </div>
+              <div class="carousel-item">
+                <img src="{{asset('img/event/rewin/1st/3.jpg')}}" widht="300" height="auto" alt="" />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Caption</p>
             </div>
-            <div class="carousel-item">
-              <img src="{{asset('img/event/2015/4.jpg')}}" widht="auto" height="400" alt="">
-              <div class="carousel-caption d-none d-md-block">
-                <p>Caption</p>
               </div>
+              <div class="carousel-item">
+                <img src="{{asset('img/event/rewin/1st/4.jpg')}}" widht="300" height="auto" alt="" />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Caption</p>
             </div>
-            <div class="carousel-item">
-              <img src="{{asset('img/event/2015/5.jpg')}}" widht="auto" height="400" alt="">
-              <div class="carousel-caption d-none d-md-block">
-                <p>Caption</p>
               </div>
+              <div class="carousel-item">
+                <img src="{{asset('img/event/rewin/1st/5.jpg')}}" widht="300" height="auto" alt="" />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Caption</p>
             </div>
+              </div>
+              <div class="carousel-item">
+                <img src="{{asset('img/event/rewin/1st/6.jpg')}}" widht="300" height="auto" alt="" />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Caption</p>
+            </div>
+              </div>
+              <div class="carousel-item">
+                <img src="{{asset('img/event/rewin/1st/7.jpg')}}" widht="300" height="auto" alt="" />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Caption</p>
+            </div>
+              </div>
+              <div class="carousel-item">
+                <img src="{{asset('img/event/rewin/1st/8.jpg')}}" widht="300" height="auto" alt="" />
+            <div class="carousel-caption d-none d-md-block">
+              <p>Caption</p>
+            </div>
+              </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#rewin1" data-bs-slide="prev">
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#1st" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#rewin1" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#1st" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -109,58 +133,7 @@
         </div>
 
       </div>
-      
-      <div class="col-md-6">
-       
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#rewin11" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#rewin11" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#rewin11" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#rewin11" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#rewin11" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="{{asset('img/event/2015/1.jpg')}}" widht="auto" height="400" alt="">
-            <div class="carousel-caption d-none d-md-block">
-              <p>Caption</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="{{asset('img/event/2015/2.jpg')}}" widht="auto" height="400" alt="">
-            <div class="carousel-caption d-none d-md-block">
-              <p>Caption</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="{{asset('img/event/2015/3.jpg')}}" widht="auto" height="400" alt="">
-            <div class="carousel-caption d-none d-md-block">
-              <p>Caption</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="{{asset('img/event/2015/4.jpg')}}" widht="auto" height="400" alt="">
-            <div class="carousel-caption d-none d-md-block">
-              <p>Caption</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="{{asset('img/event/2015/5.jpg')}}" widht="auto" height="400" alt="">
-            <div class="carousel-caption d-none d-md-block">
-              <p>Caption</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#rewin11" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#rewin11" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
 
-      </div>
     </div>
     
     <p class="pt-5 mb-3 center">Read about the happenings at the 1st Remaja Wadah Indonesia in our newsletter below:</p>
