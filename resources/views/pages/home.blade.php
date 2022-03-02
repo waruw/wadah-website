@@ -60,7 +60,7 @@
         <div class="row content">
           <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box icon-boxpen">
-              <h4><a href="{{ asset('/our-programs')}}">Education</a></h4>
+              <h4 class="center"><a href="{{ asset('/our-programs')}}">Education</a></h4>
               <p style="text-align: justify">Education is the foundation in raising awareness to becoming a trained, 
                 skilled and trustworthy individual.</p>
             </div>
@@ -68,7 +68,7 @@
 
           <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box icon-boxkes">
-              <h4><a href="{{ asset('/our-programs')}}">Health</a></h4>
+              <h4 class="center"><a href="{{ asset('/our-programs')}}">Health</a></h4>
               <p style="text-align: justify">Wadah Foundation supports individuals and groups involved in Health 
                 Centers and Health Service Centers to help promote awareness in healthy and clean lifestyle as 
                 well as to develop skills related to health programs.</p>
@@ -77,7 +77,7 @@
 
           <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box icon-boxpem">
-              <h4><a href="{{ asset('/our-programs')}}">Economic Development  </a></h4>
+              <h4 class="center"><a href="{{ asset('/our-programs')}}">Economic Development  </a></h4>
               <p style="text-align: justify">Wadah Foundation assists individuals and families to be trained and 
                 skilled in managing their own potentials in order for them to become strong, empowered and dignified.</p>
             </div>
