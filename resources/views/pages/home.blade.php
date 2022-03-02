@@ -2,9 +2,8 @@
 @section('container')
 
 
-<!-- Masthead-->
-<header class="masthead">
-  <div class="container">
+  <header>
+    <div>
       <div class="masthead-heading text-uppercasec left ">We grow to serve and 
         <br>we serve so that others 
         <br>may grow together with us. </div>
@@ -13,8 +12,50 @@
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
         <a href="https://www.youtube.com/watch?v=xMnjjAFMdBQ" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>   Watch Video</span></a>
       </div>
-  </div>
-</header>
+    </div>
+      
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image">
+          <img src="{{asset('img/event/rewin/1st/1.jpg')}}" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image">
+          <img src="{{asset('img/event/rewin/1st/2.jpg')}}" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image">
+          <img src="{{asset('img/event/rewin/1st/3.jpg')}}" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      
+  </header>
 
   <main id="main">
 
@@ -95,32 +136,27 @@
           <h2>NEWS</h2>
         <div class="row content">
 
-        @foreach ($allNews as $news)
+            @foreach ($allNews as $news)
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="card">
-              <img src="{{asset($news->image)}}" class="card-img-top" alt="..." style="object-fit: cover; min-height:300px; max-height:300px; widht:auto;">
-              <div class="card-body pt-1">
-                  
-                <h5 class="card-title mt-2"><a href="{{route('news.show', $news->slug)}}">{{$news->title}}</a></h5>
-                <div style="font-size: 13px;">
-                  <a href="">{{$news->category->nama_kategori}}</a> 
-                  <small class="fw-light fst-italic">{{$news->created_at->format('d/m/Y')}}</small>
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="card">
+                  <img src="{{asset($news->image)}}" class="card-img-top" alt="..." style="object-fit: cover; min-height:300px; max-height:300px; widht:auto;">
+                  <div class="card-body pt-1">  
+                      <h5 class="card-title mt-2"><a href="{{route('news.show', $news->slug)}}">{{$news->title}}</a></h5>
+                      <div style="font-size: 13px;">
+                        <a href="">{{$news->category->nama_kategori}}</a> 
+                        <small class="fw-light fst-italic">{{$news->created_at->format('d/m/Y')}}</small>
+                      </div>
+                      <p class="card-text" style="text-align:justify"> {!!\Illuminate\Support\Str::limit($news->article, 70, '....')!!}
+                      <div>
+                          <a href='{{route('news.show', $news->slug)}}' class="float-fix btn btn-sm btn-outline-dark">Read More</a></p>
+                      </div>
+                  </div>
                 </div>
-                    <p class="card-text" style="text-align:justify"> {!!\Illuminate\Support\Str::limit($news->article, 100, '....')!!}
-                <div>
-                      <a href='{{route('news.show', $news->slug)}}' class="float-fix btn btn-sm btn-outline-dark">Read More</a></p>
-                </div>
-                    {{-- <div class="d-flex justify-content-end">
-                <a href='{{route('news.show', $news->slug)}}' class="btn-learn-more">Read More</a>
-                    </div> --}}
               </div>
-            </div>
-          </div>
-        @endforeach
+            @endforeach
         
         </div>
-      </div>
       </div>
     </section><!-- End Pricing Section -->
 

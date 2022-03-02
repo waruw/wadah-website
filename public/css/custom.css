@@ -145,3 +145,18 @@ border : 1px solid red;
     background-color: #208b3b3b;
     width: 300px;
 }
+
+.header {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+  header.header h1 {
+    position: absolute;
+    left: 20%;
+  }
