@@ -34,55 +34,57 @@
       <div class="col-md-12 p-3 mb-5">
         <div class="row pt-0 mb-0">
           <div class="col mb-0">
-          <div id="#wgg0" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#wgg0" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#wgg0" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#wgg0" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#wgg0" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#wgg0" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+            <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="{{asset('img/event/wgg/2018/1.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="{{asset('img/event/wgg/2018/2.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="{{asset('img/event/wgg/2018/3.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="{{asset('img/event/wgg/2018/4.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="{{asset('img/event/wgg/2018/5.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="carousel-inner" >
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="{{asset('img/event/wgg/2018/1.jpg')}}" widht="auto" height="400"  alt="" />
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="{{asset('img/event/wgg/2018/2.jpg')}}" widht="auto" height="400" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{{asset('img/event/wgg/2018/3.jpg')}}" widht="auto" height="400" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{{asset('img/event/wgg/2018/4.jpg')}}" widht="auto" height="400" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{{asset('img/event/wgg/2018/5.jpg')}}" widht="auto" height="400"  alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#wgg0" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#wgg0" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+
         </div>
 
         <div class="col pt-4 pt-lg-">
@@ -120,7 +122,67 @@
   
           <div class="col pt-0 pt-lg-">
             
-            <div id="#wgg1" class="carousel slide" data-bs-ride="carousel">
+            <div id="wgg2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#wgg2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#wgg2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#wgg2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#wgg2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#wgg2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="{{asset('img/event/wgg/2015/1.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="{{asset('img/event/wgg/2015/2.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="{{asset('img/event/wgg/2015/3.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="{{asset('img/event/wgg/2015/4.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="{{asset('img/event/wgg/2015/5.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#wgg2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#wgg2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+        </div>       
+      </div>
+
+
+      <!-- 2012 -->
+      <div class="col-md-12 p-3 mb-5">
+        <div class="row pt-0 mb-0">
+          <div class="col mb-0">
+    
+            <div id="wgg1" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#wgg1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#wgg1" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -130,31 +192,31 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="{{asset('img/event/wgg/2015/1.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2012/1.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                  <img src="{{asset('img/event/wgg/2015/2.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2012/2.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/wgg/2015/3.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2012/3.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/wgg/2015/4.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2012/4.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/wgg/2015/5.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2012/5.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
@@ -168,67 +230,8 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
-  
             </div>
-            </div>
-        </div>       
-      </div>
 
-
-      <!-- 2012 -->
-      <div class="col-md-12 p-3 mb-5">
-        <div class="row pt-0 mb-0">
-          <div class="col mb-0">
-    
-          <div id="#wgg2" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#wgg2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#wgg2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#wgg2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#wgg2" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#wgg2" data-bs-slide-to="3" aria-label="Slide 5"></button>
-            </div>
-            <div class="carousel-inner" >
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="{{asset('img/event/wgg/2012/1.jpg')}}" widht="auto" height="400"  alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="{{asset('img/event/wgg/2012/2.jpg')}}" widht="auto" height="400" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{{asset('img/event/wgg/2012/3.jpg')}}" widht="auto" height="400" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{{asset('img/event/wgg/2012/4.jpg')}}" widht="auto" height="400" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{{asset('img/event/wgg/2012/5.jpg')}}" widht="auto" height="400"  alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#wgg2" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#wgg2" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
         </div>
 
         <div class="col pt-4 pt-lg-">
@@ -269,56 +272,57 @@
   
           <div class="col pt-0 pt-lg-">
             
-            <div id="wgg3" class="carousel slide" data-bs-ride="carousel">
+            <div id="wig1" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#wgg3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#wgg3" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#wgg3" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#wgg3" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#wgg3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#wig1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#wig1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#wig1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#wig1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#wig1" data-bs-slide-to="4" aria-label="Slide 5"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="{{asset('img/event/wgg/2010/1.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2010/1.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                  <img src="{{asset('img/event/wgg/2010/2.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2010/2.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/wgg/2010/3.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2010/3.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/wgg/2010/4.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2010/4.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="{{asset('img/event/wgg/2010/5.jpg')}}" widht="auto" height="400" alt="">
+                  <img src="{{asset('img/event/wgg/2010/5.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#wgg3" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#wig1" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#wgg3" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#wig1" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
-  
             </div>
+
+            
             </div>
         </div>       
       </div>
@@ -329,55 +333,56 @@
         <div class="row pt-0 mb-0">
           <div class="col mb-0">
     
-          <div id="wgg4" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#wgg4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#wgg4" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#wgg4" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#wgg4" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#wgg4" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <div id="wg" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#wg" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#wg" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#wg" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#wg" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#wg" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="{{asset('img/event/wgg/2009/1.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="{{asset('img/event/wgg/2009/2.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="{{asset('img/event/wgg/2009/3.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="{{asset('img/event/wgg/2009/4.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="{{asset('img/event/wgg/2009/5.jpg')}}" widht="auto" height="400"  alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Caption</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#wg" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#wg" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="{{asset('img/event/wgg/2009/1.jpg')}}" widht="auto" height="400" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="{{asset('img/event/wgg/2009/2.jpg')}}" widht="auto" height="400" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{{asset('img/event/wgg/2009/3.jpg')}}" widht="auto" height="400" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{{asset('img/event/wgg/2009/4.jpg')}}" widht="auto" height="400" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="{{asset('img/event/wgg/2009/5.jpg')}}" widht="auto" height="400" alt="">
-                <div class="carousel-caption d-none d-md-block">
-                  <p>Caption</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#wgg4" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#wgg4" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+
         </div>
 
         <div class="col pt-4 pt-lg-">
