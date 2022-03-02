@@ -10,7 +10,9 @@
       <div class="masthead-subheading left">Anie Hashim Djojohadikusumo, Founder</div>
       <div class="d-flex justify-content-center justify-content-lg-start">
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        <a href="https://www.youtube.com/watch?v=xMnjjAFMdBQ" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>   Watch Video</span></a>
+      </div>
+      <div>
+        <a href="https://www.youtube.com/watch?v=xMnjjAFMdBQ" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
       </div>
     </div>
       
@@ -130,9 +132,9 @@
 
     <!-- ======= Latest News ======= -->
     <section>
-      <div class="container" data-aos="fade-up">
+      <div class="container mb-0" data-aos="fade-up">
 
-        <div class="section-title">
+        <div class="section-title" data-aos="fade-up">
           <h2>NEWS</h2>
         <div class="row content">
 
@@ -155,8 +157,9 @@
                 </div>
               </div>
             @endforeach
-        
+
         </div>
+        <p class="mt-4 center">For more news, klik <a href="{{ url('/news')}}">here</a></p>
       </div>
     </section><!-- End Pricing Section -->
 
