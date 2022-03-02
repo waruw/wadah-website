@@ -32,6 +32,8 @@
                     </div>
                 </div>
 
+                
+
             {{-- <div class="col-md-4">
                 <div class="bg-light py-2 px-4 mb-3">
                     <h3 class="m-0">Other Wadah News:</h3>
@@ -51,8 +53,13 @@
                         </div>
                     </div>
                 </div>  
-                @endforeach  
-            </div> --}}
+                @endforeach--}}  
+            </div> 
+            @foreach ($newsByCategory as $news)
+                    <div class="col-md-4">
+                        <h4>{{$news->title}}</h4>
+                    </div>
+                @endforeach
 
          <!-- Comment Form Start -->
          <div class="bg-light mb-3" style="padding: 30px;">

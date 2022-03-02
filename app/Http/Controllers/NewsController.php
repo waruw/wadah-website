@@ -14,7 +14,7 @@ class NewsController extends Controller
      */
     public function index()
     {
-        $allNews=News::latest()->paginate(1);
+        $allNews=News::latest()->paginate(5);
         $allContent=News::latest()->paginate(4);
         $allReads=News::latest()->paginate(12);
 
@@ -50,8 +50,12 @@ class NewsController extends Controller
      */
     public function show(News $news, $slug)
     {
-        $news=News::where('slug', $slug)->first(); 
-        return view('pages.media.news.siglenews', compact('news'));
+        $news = News::where('slug', $slug)->first();
+        $categoryId = $news->category_id;
+
+        $newsByCategory = News::where('category_id', $categoryId)->get();
+
+        return view('pages.media.news.siglenews', compact('news', 'newsByCategory'));
     }
 
     /**
