@@ -40,45 +40,42 @@
       <div class="row pt-0 mb-0">
         <div class="col mb-0">
     
-          <div id="edu1" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#edu1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#edu1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#edu1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-
-            <div class="carousel-inner" >
-              <div class="carousel-item active ">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
                 <img  src="{{asset('img/program/edu/1.jpg')}}" widht="auto" height="400" alt="" />
-                  <div class="carousel-caption d-none d-md-block">
-                    <p>Kegiatan Lomba PAUD Kartini Cibodas - Jawa Barat</p>
-                  </div>
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Kegiatan Lomba PAUD Kartini Cibodas - Jawa Barat</p>
+                </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img  src="{{asset('img/program/edu/2.jpg')}}" widht="auto" height="400" alt="" />
                 <div class="carousel-caption d-none d-md-block">
                   <p>Pendampingan Belajar Komunitas Cibodas - Jawa Barat</p>
                 </div>
               </div>
-                <div class="carousel-item">
-              <img  src="{{asset('img/program/edu/3.jpg')}}" widht="auto" height="400" alt="" />
-              <div class="carousel-caption d-none d-md-block">
-                <p>Pendampingan Belajar Komunitas Mutiara Abadi - Yogyakarta</p>
-              </div>
+              <div class="carousel-item">
+                <img  src="{{asset('img/program/edu/3.jpg')}}" widht="auto" height="400" alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Pendampingan Belajar Komunitas Mutiara Abadi - Yogyakarta</p>
                 </div>
+              </div>
             </div>
-
-              <button class="carousel-control-prev" type="button" data-bs-target="#edu1" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-
-              <button class="carousel-control-next" type="button" data-bs-target="#edu1" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
+
         </div>
 
         <div class="col pt-4 pt-lg-">
@@ -107,45 +104,42 @@
       <div class="row pt-0 mb-0">
         <div class="col mb-0">
     
-          <div id="edu1" class="carousel slide" data-bs-ride="carousel">
+          <div id="health" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#kes1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#kes1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#kes1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#health" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#health" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#health" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-
-            <div class="carousel-inner" >
-              <div class="carousel-item active ">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
                 <img  src="{{asset('img/program/heal/1.jpg')}}" widht="auto" height="400" alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>Kegiatan Sharing Covid Bersama MSF Komunitas Kampung Beting- Jakarta</p>
                   </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img  src="{{asset('img/program/heal/2.jpg')}}" widht="auto" height="400" alt="" />
                 <div class="carousel-caption d-none d-md-block">
                   <p>Kegiatan Pendampingan Ibu Hamil Klinik Bidan Wiwied Komunitas Cibodas - Jawa Barat</p>
                 </div>
               </div>
-                <div class="carousel-item">
+              <div class="carousel-item">
                 <img  src="{{asset('img/program/heal/3.jpg')}}" widht="auto" height="400" alt="" />
-              <div class="carousel-caption d-none d-md-block">
-                <p>Kegiatan Posyandu Komunitas Koa - NTT</p>
+                  <div class="carousel-caption d-none d-md-block">
+                  <p>Kegiatan Posyandu Komunitas Koa - NTT</p>
+                  </div>
               </div>
-                </div>
             </div>
-
-              <button class="carousel-control-prev" type="button" data-bs-target="#kes1" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-
-              <button class="carousel-control-next" type="button" data-bs-target="#kes1" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#health" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#health" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
+
         </div>
 
         <div class="col pt-4 pt-lg-">
@@ -172,45 +166,42 @@
       <div class="row pt-0 mb-0">
         <div class="col mb-0">
     
-          <div id="edu1" class="carousel slide" data-bs-ride="carousel">
+          <div id="economic" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#pem1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#pem1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#pem1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#economic" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#economic" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#economic" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-
-            <div class="carousel-inner" >
-              <div class="carousel-item active ">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
                 <img  src="{{asset('img/program/eco/1.jpg')}}" widht="auto" height="400" alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>Kegiatan Menjahit Komunitas Kampung Beting - Jakarta</p>
                   </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img  src="{{asset('img/program/eco/2.jpg')}}" widht="auto" height="400" alt="" />
                 <div class="carousel-caption d-none d-md-block">
                   <p>Kegiatan Pertanian Komunitas Cibodas - Jawa Barat</p>
                 </div>
               </div>
-                <div class="carousel-item">
-                  <img  src="{{asset('img/program/eco/3.jpg')}}" widht="auto" height="400" alt="" />
-              <div class="carousel-caption d-none d-md-block">
-                <p>kegiatan Listrik Tenaga Surya Komunitas Pomat - NTT</p>
-              </div>
+              <div class="carousel-item">
+                <img  src="{{asset('img/program/eco/3.jpg')}}" widht="auto" height="400" alt="" />
+                <div class="carousel-caption d-none d-md-block">
+                  <p>kegiatan Listrik Tenaga Surya Komunitas Pomat - NTT</p>
                 </div>
+              </div>
             </div>
-
-              <button class="carousel-control-prev" type="button" data-bs-target="#pem1" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-
-              <button class="carousel-control-next" type="button" data-bs-target="#pem1" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#economic" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#economic" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
+
         </div>
 
         <div class="col pt-4 pt-lg-">
