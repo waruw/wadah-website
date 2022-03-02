@@ -34,7 +34,7 @@
       <div class="col-md-12 p-3 mb-5">
         <div class="row pt-0 mb-0">
           <div class="col mb-0">
-          <div id="wgg0" class="carousel slide" data-bs-ride="carousel">
+          <div id="#wgg0" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#wgg0" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#wgg0" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -43,13 +43,13 @@
               <button type="button" data-bs-target="#wgg0" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner" >
-              <div class="carousel-item active">
+              <div class="carousel-item active" data-bs-interval="10000">
                 <img src="{{asset('img/event/wgg/2018/1.jpg')}}" widht="auto" height="400"  alt="" />
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img src="{{asset('img/event/wgg/2018/2.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
@@ -129,13 +129,13 @@
                 <button type="button" data-bs-target="#wgg1" data-bs-slide-to="4" aria-label="Slide 5"></button>
               </div>
               <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-bs-interval="10000">
                   <img src="{{asset('img/event/wgg/2015/1.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="2000">
                   <img src="{{asset('img/event/wgg/2015/2.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
@@ -189,13 +189,13 @@
               <button type="button" data-bs-target="#wgg2" data-bs-slide-to="3" aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner" >
-              <div class="carousel-item active">
+              <div class="carousel-item active" data-bs-interval="10000">
                 <img src="{{asset('img/event/wgg/2012/1.jpg')}}" widht="auto" height="400"  alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img src="{{asset('img/event/wgg/2012/2.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
@@ -278,13 +278,13 @@
                 <button type="button" data-bs-target="#wgg3" data-bs-slide-to="4" aria-label="Slide 5"></button>
               </div>
               <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-bs-interval="10000">
                   <img src="{{asset('img/event/wgg/2010/1.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="2000">
                   <img src="{{asset('img/event/wgg/2010/2.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
                     <p>Caption</p>
@@ -338,13 +338,13 @@
               <button type="button" data-bs-target="#wgg4" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active" data-bs-interval="10000">
                 <img src="{{asset('img/event/wgg/2009/1.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img src="{{asset('img/event/wgg/2009/2.jpg')}}" widht="auto" height="400" alt="">
                 <div class="carousel-caption d-none d-md-block">
                   <p>Caption</p>
