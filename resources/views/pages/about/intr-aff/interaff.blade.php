@@ -23,46 +23,44 @@
       <div class="col-md-12 p-3 mb-5">
         <div class="row pt-0 mb-0">
           <div class="col mb-0">
-      
-            <div id="edu1" class="carousel slide" data-bs-ride="carousel">
+
+            <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#intaf1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#intaf1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#intaf1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-               </div>
-  
-              <div class="carousel-inner" >
-                <div class="carousel-item active ">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
                   <img src="{{asset('img/interaff/ph/1.jpg')}}" widht="auto" height="400" alt="" />
                     <div class="carousel-caption d-none d-md-block">
                       <p>BAYANIHAN AWARD 2015. Pres. Benigno Aquino III presenting the Bayanihan Award to Cristina Ferreros of Wadah Philippines.</p>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="2000">
                   <img src="{{asset('img/interaff/ph/2.jpg')}}" widht="auto" height="400" alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>NATIONAL ANTHEM. The awardees together with the officials singing the national anthem,
                       Lupang Hinirang.</p>
                   </div>
                 </div>
-                  <div class="carousel-item">
-                    <img src="{{asset('img/interaff/ph/3.jpg')}}" widht="auto" height="400" alt="" />
+                <div class="carousel-item">
+                  <img src="{{asset('img/interaff/ph/3.jpg')}}" widht="auto" height="400" alt="" />
                 <div class="carousel-caption d-none d-md-block">
                   <p>Philippines Wanita Dan Harapan, Inc. was one of the two NGO awardees honored by the 2nd Air Division, Philippine Air Force, during its 37th Founding Anniversary.</p>
                 </div>
-                  </div>
+                </div>
               </div>
-  
-              <button class="carousel-control-prev" type="button" data-bs-target="#intaf1" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#intaf1" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
-  
             </div>
+
           </div>
         
   
@@ -119,39 +117,36 @@
   
           <div class="col pt-0 pt-lg-">
             
-            <div id="edu1" class="carousel slide" data-bs-ride="carousel">
+            <div id="malay" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#intaff2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#intaff2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#malay" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#malay" data-bs-slide-to="1" aria-label="Slide 2"></button>
               </div>
-  
-              <div class="carousel-inner" >
-                <div class="carousel-item active ">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
                   <img src="{{asset('img/interaff/malay/1.jpg')}}" widht="auto" height="400" alt="" />
                     <div class="carousel-caption d-none d-md-block">
                       <p>Spotlight Kuala Lumpur</p>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="2000">
                   <img src="{{asset('img/interaff/malay/2.jpg')}}" widht="auto" height="400" alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>Spotlight Kuala Lumpur</p>
                   </div>
                 </div>
               </div>
-  
-              <button class="carousel-control-prev" type="button" data-bs-target="#intaf2" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#malay" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#intaf2" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#malay" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
-  
             </div>
 
-            </div>
+          </div>
         </div>       
       </div>
 
@@ -160,37 +155,36 @@
        <div class="col-md-12 p-3">
         <div class="row pt-0 mb-0">
           <div class="col mb-0">
-      
-            <div id="edu1" class="carousel slide" data-bs-ride="carousel">
+            
+            <div id="india" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#intaf3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#intaf3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#india" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#india" data-bs-slide-to="1" aria-label="Slide 2"></button>
               </div>
-  
-              <div class="carousel-inner" >
-                <div class="carousel-item active ">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
                   <img src="{{asset('img/interaff/india/1.jpg')}}" widht="auto" height="400" alt="" />
                     <div class="carousel-caption d-none d-md-block">
                       <p>Babli Kalha of Wadah India is in full support of Ankur Gupta’s launching of his new song “Tore Naina.”</p>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="2000">
                   <img src="{{asset('img/interaff/india/2.jpg')}}" widht="auto" height="400" alt="" />
                   <div class="carousel-caption d-none d-md-block">
                     <p>-</p>
                   </div>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#intaf3" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#india" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#intaf3" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#india" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
-  
             </div>
+      
           </div>
         
   
