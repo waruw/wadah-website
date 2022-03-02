@@ -83,13 +83,13 @@
     <div class="row content mb-3 center">
       <div class="row">
       
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <h5>VIA QRIS</h5>
           <h6>YAYASAN WADAH TITIAN HARAPAN</h6>
           <img src="{{asset('img/donate/qrisywth.jpg')}}" width="200px" height="auto">
         </div>
 
-        <div class="col-md-4"> 
+        <div class="col-md-4 mb-3"> 
           <h5>VIA BANK TRANSFER</h5>
           <h6>YAYASAN WADAH TITIAN HARAPAN</h6>
           <p> BNI Jakarta Pusat<br>
@@ -98,7 +98,7 @@
               Swift Code BNINIDJA</p>
         </div>
 
-        <div class="col-md-4">      
+        <div class="col-md-4 mb-3">      
           <h5>VIA PAYPAL</h5>
           <h6>You may also show your support to Wadah Foundation and our 
             communities by donating via PayPal. Just click on the link below:

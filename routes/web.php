@@ -20,6 +20,12 @@ use App\Http\Controllers\AdminPostController;
 //     return view('pages.home');
 // });
 
+if(file_exists(app_path('Http/Controllers/LocalizationController.php')))
+{
+    Route::get('lang/{locale}', [App\Http\Controllers\LocalizationController::class , 'lang']);
+    Route::get('/lang/{locale}', [App\Http\Controllers\LocalizationController::class , 'lang']);
+}
+
 Route::get('/', [HomeController::class, 'index'])->name('adminnews.index');
 
 Route::get('/about-us', function () {
@@ -140,3 +146,5 @@ Route::get('/gallery', function () {
 
 Route::get('/admin/post', [AdminPostController::class, 'index'])->name('adminnews.index');
 Route::post('/admin/post', [AdminPostController::class, 'store'])->name('adminnews.post');
+
+
