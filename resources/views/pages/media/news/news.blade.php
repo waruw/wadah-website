@@ -85,7 +85,7 @@
                         <div class="mb-1 capcatdate">
                             <a href="">{{$news->category->nama_kategori}}</a><br>
                             <span>{{$news->created_at->format('d/m/Y')}}</span>
-                        </div >
+                        </div>
                         </div>
                     </div>
                 </div>  

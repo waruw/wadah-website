@@ -53,7 +53,7 @@ class NewsController extends Controller
         $news = News::where('slug', $slug)->first();
         $categoryId = $news->category_id;
 
-        $newsByCategory = News::where('category_id', $categoryId)->get();
+        $newsByCategory = News::where('category_id', $categoryId)->paginate(5);
 
         return view('pages.media.news.siglenews', compact('news', 'newsByCategory'));
     }
