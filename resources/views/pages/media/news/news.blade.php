@@ -46,7 +46,7 @@
                     @foreach ($allNews as $news)
                     @if ($loop->first) @continue @endif
                         <div class="col-6">
-                            <div class="col-lg-12 mb-2 newspost">
+                            <div class="col-lg-12 mb-2 postnewsconten">
                                 <div class="position-relative mb-6 border-end-0">
                                     <div>
                                     <img class="img-fluid w-100" src="{{asset($news->image)}}" 

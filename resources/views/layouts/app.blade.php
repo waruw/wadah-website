@@ -77,7 +77,7 @@
             <ul>
               <li><a href="{{ url('/wgg')}}">Wadah Global Gathering</a></li>
               <li><a href="{{ url('/rewin')}}">Rewin</a></li>
-              <li><a href="{{ url('/coevents')}}">Co-Sponsored Events</a></li>
+              {{-- <li><a href="{{ url('/coevents')}}">Co-Sponsored Events</a></li> --}}
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Get Involved</span> <i class="bi bi-chevron-down"></i></a>

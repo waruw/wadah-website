@@ -109,9 +109,16 @@ border : 1px solid red;
 .newslastpost {
     background-color: #f8f9fa;
     border: 10px solid #f8f9fa;
-    padding-top: 4;
+    padding-top: 4px;
     padding: 2px;
     margin: 4px;
+}
+
+.postnewsconten {
+    background-color: #f8f9fa;
+    border: 4px solid #f8f9fa;
+    height: 420px;
+    width: 350px;
 }
 
 .titlelaspost {
