@@ -19,6 +19,8 @@ return [
     'load' => 'Loading',
     'notif' => 'Pesan terkirim. Terima kasih!',
     'send' => 'Kirim',
+    'locmap' => 'Lokasi Operasional',
+    
 
     
 

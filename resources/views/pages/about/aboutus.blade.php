@@ -82,9 +82,12 @@
   <div class="container">
     <div class="row title">
       <div class="section-title pt-4">
-        <h2>About US</h2>
+        <h2>{{ __('general.about') }}</h2>
       </div>
     </div>
+
+    @if (App::currentLocale()=="en")
+
     <div class="row content mb-4">
       <p style="text-align:justify">
         Yayasan Wadah Titian Harapan (“Wadah”) is a non-profit organization founded on the concerns of a 
@@ -106,9 +109,34 @@
         ISO 9001:2015 Certification, which was extended in December 2020.
       </p>
     </div>
+    @elseif(App::currentLocale()=="id")
+
+    <div class="row content mb-4">
+      <p style="text-align:justify">
+        Yayasan Wadah Titian Harapan (Yayasan Wadah) adalah sebuah lembaga sosial berstandar internasional 
+        yang berkantor di Jakarta, Indonesia. Wadah didirikan karena keprihatinan seorang Ibu terhadap kondisi 
+        sumber daya manusia di tataran akar rumput.
+        <br><br>
+        Wadah adalah singkatan dari kata Wanita dan Harapan. Wadah, yang dalam Bahasa Indonesia secara harafiah 
+        berarti tempat, namun dalam prakteknya berarti juga keluarga atau komunitas.
+        <br><br>
+        Yayasan Wadah memulai pelayanannya dengan mengajak pribadi dan keluarga untuk mempersiapkan generasi 
+        bangsa yang lebih baik dengan memberikan perhatian kepada dunia pendidikan.  
+        <br><br>
+        Wadah juga telah memperluas jangkauannya secara internasional dengan organisasi serupa yang terdaftar 
+        di Filipina, Malaysia dan India: Philippines Wanita dan Harapan, Inc.; Pertubuhan Wadah Kuala Lumpur & 
+        Selangor; Wadah Trust India. Pada tahun 2016, Wadah mendapat Status Konsultatif Khusus oleh Dewan Ekonomi 
+        dan Sosial PBB. Setahun kemudian, pada Desember 2017, Wadah mendapatkan Sertifikasi ISO 9001:2015, yang telah
+        diperpanjang pada Desember 2020. 
+      </p>
+    </div>
+    @endif
+    
 
     <div class="row title">
     </div>
+
+    @if (App::currentLocale()=="en")
 
     <div class="row content">
         <div class="container mb-3">
@@ -158,10 +186,68 @@
           </div>
 
     </div>
+
+    @elseif(App::currentLocale()=="id")
+
+    <div class="row content">
+      <div class="container mb-3">
+            <div class="row justify-content-center pt-3 mb-3">
+                <p class="center sizefont bold color">Visi Kami</p>
+            </div>
+              <h4 class="center">Mewujudkan masyarakat yang berdaya dan bermartabat</h4>
+      </div>
+
+      <div class="container mb-3">
+            <div class="row justify-content-center pt-3 mb-3">
+                <p class="center sizefont bold color">Misi Kami</p>
+            </div>
+              <h4 class="center">Memberdayakan pribadi-pribadi secara holistik melalui bidang pendidikan, 
+                kesehatan, dan penguatan ekonomi</h4>
+      </div>
+
+      <div class="container mb-3">
+            <div class="row justify-content-center pt-3 mb-3">
+                <p class="center sizefont bold color">Tujuan Kami</p>
+            </div>
+                <h4 class="center">Melahirkan tokoh masyarakat yang terlatih, terampil dan terpercaya dibidangnya</h4>
+      </div>
+
+        <div class="container mb-3">
+          <div class="row justify-content-center pt-3 mb-3">
+              <p class="center sizefont bold color">Nilai-Nilai</p>
+              <h4 class="center pt-2">Ketuhanan yang Maha Esa</h4>
+              <h4 class="center">Ketulus-ikhlasan</h4>
+              <h4 class="center">Kekeluargaan</h4>
+              <h4 class="center">Kerendahan Hati</h4>
+              <h4 class="center">Kebersamaan</h4>
+              <h4 class="center">Keberagaman</h4>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row justify-content-center mb-3">
+              <p class="center sizefont bold color">Program Kami</p>
+          </div>
+              <h4 class="center">Seiring dengan pertumbuhan komunitas yang didukung, didampingi dan dibina, 
+                maka Yayasan Wadah membuat berbagai program dan kegiatan yang sesuai dengan kebutuhan komunitas 
+                tersebut, yaitu:</h4>
+                  <div class="pt-3 mb-0">
+                  <h4 class="center">Pendidikan</h3>
+                  <h4 class="center">Kesehatan</h3>
+                  <h4 class="center">Penguatan Ekonomi</h3>
+                  </div>
+        </div>
+
+  </div>
+  
+  @endif
+
   </div>
 </section>
     
 <section>
+  @if (App::currentLocale()=="en")
+
   <div class="services section-bg mb-3">
     <div class="row title">
       <div class="section-title pt-4">
@@ -216,53 +302,73 @@
               BY ITS BENEFICIARIES</h4>
         </div>
     </div>
+
+    @elseif(App::currentLocale()=="id")
+
+    <div class="services section-bg mb-3">
+      <div class="row title">
+        <div class="section-title pt-4">
+          <h2>APA YANG MEMBUAT WADAH ITU "UNIK"?</h2>
+      </div>
+      </div>
+  
+      <div class="row content">
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-1"></div>
+              <div class="col-md-9">
+              <ul type="disc" style="text-align:left">
+                <li><b>PEDULI</b></li>
+                  <ul type="square">
+                    <li>Kepedulian adalah panduan utama Wadah dalam Berbagi dan Memberi</li>
+                    <li>Mendukung nilai-nilai yang menjunjung tinggi martabat manusia</li>
+                    <li>Menghargai budaya dan tradisi setempat</li>
+                    <br>
+                  </ul>
+                <li><b>MENDENGARKAN</b></li>
+                  <ul type="square">
+                    <li>Berkonsultasi, bekerjasama dan melibatkan semua pihak</li>
+                    <li>Tidak memaksakan program perubahan sendiri, sebaliknya</li>
+                    <li>Selalu melibatkan komunitas, para pemimpinnya, pemangku kepentingan dan penerima manfaat</li>
+                    <br>
+                  </ul>
+                <li><b>MEMBERI INSPIRASI</b></li>
+                <ul type="square">
+                    <li>Berupaya menggali yang terbaik dari diri seseorang (mengenali mereka yang telah berbuat baik untuk ditingkatkan menjadi lebih baik lagi)</li>
+                    <li>Berupaya mengembangkan tokoh panutan yang mampu memimpin melalui perbuatan dan teladan, bukan sekedar kata-kata</li>
+                    <br>
+                  </ul>
+                <li><b>TETAP BERSAMA KOMUNITAS</b></li>
+                <ul type="square">
+                    <li>Tidak berpola pikir "proyek"</li>
+                    <li>Fokus pada keberlanjutan</li>
+                    <br>
+                  </ul>
+                <br>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-1"></div>
+              <div class="col-md-1"></div>
+              <div class="col-md-1"></div>
+              <div class="col-md-1"></div>
+              <div class="col-md-1"></div>
+              <div class="col-md-1"></div>
+              <div class="col-md-1"></div>
+              <h4 class="bold center mb-3">100% SUMBANGAN DAN BANTUAN 
+                <br>DITERIMA DAN DINIKMATI OLEH PENERIMA MANFAAT</h4>
+          </div>
+      </div>
+
+      @endif
+
   </section>
 
         <div class="row">
         <div  class="col-md-12 section-title pt-4">
-          <h2>OPERATIONAL LOCATION</h2>
+          <h2>{{ __('general.locmap') }}</h2>
 
           <img class="img-fluid" src="{{asset('img/aboutus/28_1.jpg')}}" widht="auto" height="800";>
-                                    {{-- <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
 
-                            <div id="map" style="idth: 100%; height: 500px;"></div>
-
-                            <script src="http://maps.google.com/maps/api/js?sensor=false" 
-                                    type="text/javascript"></script>
-                                    
-                            <script type="text/javascript">
-                              var locations = [
-                                ['Rumah Wadah', -6.205482596789312, 106.80946103774215, 4],
-                                ['Rumah Wadah Daerah Kupang Koa', -10.1966638,123.6243784, 5],
-                                ['Rumah Wadah Daerah Yogyakarta', -7.7858473257344745, 110.3783756966485, 3],
-                                ['Rumah Wadah Daerah Sikka', -8.626132436952982, 122.22766036156979, 2],
-                                ['Rumah Wadah Daerah Ambon', -3.6793064561713136, 128.19586605245004, 1]
-                              ];
-
-                              var map = new google.maps.Map(document.getElementById('map'), {
-                                zoom: 10,
-                                center: new google.maps.LatLng( -7.351571, 109.682181),
-                                mapTypeId: google.maps.MapTypeId.ROADMAP
-                              });
-
-                              var infowindow = new google.maps.InfoWindow();
-
-                              var marker, i;
-
-                              for (i = 0; i < locations.length; i++) {  
-                                marker = new google.maps.Marker({
-                                  position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-                                  map: map
-                                });
-
-                                google.maps.event.addListener(marker, 'click', (function(marker, i) {
-                                  return function() {
-                                    infowindow.setContent(locations[i][0]);
-                                    infowindow.open(map, marker);
-                                  }
-                                })(marker, i));
-                              }
-                            </script> --}}
        </div>
       </div>
 
