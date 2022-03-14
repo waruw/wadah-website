@@ -52,7 +52,7 @@ section .content{
   }
 
 .carousel-caption p {
-    background-color: #208b3b3b;
+    background-color: #1213123b;
 }
 
 @media only screen and (max-width: 768px) {

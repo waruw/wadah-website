@@ -76,7 +76,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About Us</h2>
+          <h2>{{ __('general.about') }}</h2>
         </div>
         
         <div class="row content">
@@ -195,7 +195,7 @@
       <div class="container mb-0" data-aos="fade-up">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>NEWS</h2>
+          <h2>{{ __('general.news') }}</h2>
         <div class="row content">
 
             @foreach ($allNews as $news)
@@ -219,7 +219,7 @@
             @endforeach
 
         </div>
-        <p class="mt-4 center">For more news, klik <a href="{{ url('/news')}}">here</a></p>
+        <p class="mt-4 center">{{ __('general.morenews') }}<a href="{{ url('/news')}}">{{ __('general.here') }}</a></p>
       </div>
     </section><!-- End Pricing Section -->
 
@@ -228,14 +228,14 @@
       <div class="container" data-aos="fade-up">
         <div class=" section-title">
           <h2>{{ __('general.contact') }}</h2>
-          <p>Call or visit.</p>
+          <p>{{ __('general.call') }}</p>
         </div>
         <div class="row content">
           <div class="col-lg-5 d-flex align-items-stretch left">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
+                <h4>{{ __('general.loc') }}</h4>
                 <p>Jl. Penjernihan II No. 7<br>
               Kel. Bendungan Hilir, Kec. Tanah abang<br>
               Jakarta Pusat 10210<br>
@@ -250,7 +250,7 @@
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
+                <h4>{{ __('general.phone') }}</h4>
                 <p>(+62)21 5799-2162</p>
               </div>
 
@@ -265,28 +265,28 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
+                  <label for="name">{{ __('general.name') }}</label>
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
+                  <label for="name">{{ __('general.email') }}</label>
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
               <div class="form-group">
-                <label for="name">Subject</label>
+                <label for="name">{{ __('general.subj') }}</label>
                 <input type="text" class="form-control" name="subject" id="subject" required>
               </div>
               <div class="form-group">
-                <label for="name">Message</label>
+                <label for="name">{{ __('general.mess') }}</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">{{ __('general.notif') }}</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">{{ __('general.send') }}</button></div>
             </form>
           </div>
         </div>

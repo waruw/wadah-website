@@ -9,6 +9,75 @@
   </div>
 </section><!-- End Breadcrumbs -->
 
+<header>
+    
+  <div class="embed-responsive embed-responsive-16by9" id="holder" style="pointer-events: none;">
+    <iframe class="frame" width="auto" height="auto" 
+       src="https://www.youtube.com/watch?v=xMnjjAFMdBQ&amp; 
+       controls=0&amp;showinfo=0;autoplay=1&mute=1&loop=1&playlist=4hIZUCKsio 
+       0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; 
+       picture- 
+       in-picture" allowfullscreen></iframe>
+ </div>
+
+ 
+  {{-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen></iframe>
+      </div>
+      
+
+      <div class="carousel-item active" style="background-image">
+        <img src="{{asset('img/header/1.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image">
+        <img src="{{asset('img/header/2.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image">
+        <img src="{{asset('img/header/3.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image">
+        <img src="{{asset('img/header/4.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> --}}
+
+
+</header>
+
 <section>
   <div class="container">
     <div class="row title">
