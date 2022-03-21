@@ -17,6 +17,22 @@
       </div>
     </div>
     <div class="row content">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row-12 mt-0 mb-4">
+          <div class="col-md-12">
+              <p style="text-align:justify">
+                @if (App::currentLocale()=="en")
+                Warta Wadah is where you can read about the activities and events of Wadah Foundation in Bahasa. 
+                Released every June, and December of each year.
+                @elseif (App::currentLocale()=="id")
+                The Wadah Chronicles adalah media dimana Anda dapat membaca tentang kegiatan dan acara Yayasan Wadah dalam Bahasa Indonesia. 
+                Dirilis setiap bulan Juni, dan Desember setiap tahunnya.
+                @endif
+              </p>
+          </div>
+        </div>
+      </div>
       
       <div class="container mb-2">
         <div class="row mb-2">

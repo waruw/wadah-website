@@ -17,7 +17,7 @@
     <div class="row content">
       <div class="container">
         <div class="section-title">
-          <h3>MEMBER OF:</h3>
+          <h3>{{ __('general.member') }}</h3>
         </div>
             <div class="row">
               <div class="col"></div>
@@ -41,7 +41,7 @@
     <div class="row content">
       <div class="container">
         <div class="section-title">
-          <h3>IN PARTNERSHIP WITH:</h3>
+          <h3>{{ __('general.partner') }}</h3>
         </div>
             <div class="row">
               <div class="col"></div>

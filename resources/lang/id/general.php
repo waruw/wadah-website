@@ -21,6 +21,11 @@ return [
     'send' => 'Kirim',
     'locmap' => 'Lokasi Operasional',
     'ourprog' => 'Program Kami',
+    'member' => 'ANGGOTA:',
+    'partner' => 'KERJASAMA DENGAN:',
+    'publc' => 'PUBLIKASI WADAH',
+
+
     
 
     

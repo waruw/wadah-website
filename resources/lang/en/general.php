@@ -20,6 +20,9 @@ return [
     'send' => 'Send Message',
     'locmap' => 'Operational Location',
     'ourprog' => 'Our Program',
+    'member' => 'MEMBER OF:',
+    'partner' => 'IN PARTNERSHIP WITH:',
+    'publc' =>'WADAH PUBLICATIONS'
     
 
 

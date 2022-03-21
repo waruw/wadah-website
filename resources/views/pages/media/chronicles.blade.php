@@ -22,12 +22,21 @@
         <div class="row-12 mt-0 mb-4">
           <div class="col-md-12">
               <p style="text-align:justify">
+                @if (App::currentLocale()=="en")
                 The Wadah Chronicles is where you can read about the activities and events of Wadah Foundation. 
-                Released every April, August and December of each year, starting this 2016, 
+                Released every March, and September of each year, starting this 2016, 
                 the Wadah Newsletter gets a new name and a new face. Simply click on the thumbnail below to start reading.
-              <br><br>
-              Note: Starting this year, 2021, the Wadah Chronicles will be released exclusively online twice a year 
-              to make it easily accessible to more people especially during these trying times. 
+                <br><br>
+                Note: Starting this year, 2021, the Wadah Chronicles will be released exclusively online twice a year 
+                to make it easily accessible to more people especially during these trying times.
+                @elseif (App::currentLocale()=="id")
+                The Wadah Chronicles adalah media dimana Anda dapat membaca tentang kegiatan dan acara Yayasan Wadah. 
+                Dirilis setiap bulan Maret, dan September setiap tahunnya, mulai tahun 2016 ini Newsletter
+                Wadah mendapat nama dan wajah baru. Cukup klik thumbnail di bawah ini untuk mulai membaca.
+                <br><br>
+                Catatan: Mulai tahun ini, 2021, Wadah Chronicles akan dirilis secara eksklusif secara online dua 
+                kali setahun agar lebih mudah diakses oleh lebih banyak orang terutama selama masa-masa sulit ini. 
+                @endif
               </p>
           </div>
         </div>
@@ -132,11 +141,19 @@
         <div class="row-12 mt-0 mb-4">
           <div class="col-md-12">
             <p style="text-align:justify">
-              Released every April, August and December of each year, the Wadah Newsletter is where you can 
+              @if (App::currentLocale()=="en")
+              Released every June, August and December of each year, the Wadah Newsletter is where you can 
               read about the activities and events of Wadah Foundation. Simply click on the thumbnail below 
               to start reading.
-            <br><br>
-            Final release date: December 2015 
+              <br><br>
+              Final release date: December 2015
+              @elseif (App::currentLocale()=="id")
+              Dirilis setiap bulan April, Agustus dan Desember setiap tahun, Wadah Newsletter adalah tempat 
+              Anda dapat membaca tentang kegiatan dan acara Yayasan Wadah. Cukup klik thumbnail di bawah ini 
+              untuk mulai membaca.
+              <br><br>
+              Tanggal rilis terakhir: Desember 2015 
+              @endif
             </p>
           </div>
         </div>

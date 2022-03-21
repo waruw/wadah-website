@@ -95,16 +95,26 @@
       </div>
       <div class="row content">
         <p style="text-align:justify">
+          @if (App::currentLocale()=="en")
           Since 1st July 2020, for the organizational development, Wadah Foundation has created 
           an organizational platform to ensure a more solid and effective collaboration between 
           various departments in line with efforts to achieve Wadah's Vision and Mission.
-        <br><br>
-        The Management has appointed a Secretary-General under the Chairperson, who is given 
-        the task of managing the day-to-day activities assisted by the Operations Department, 
-        Human Resources and General Affairs Department and the Research & Development Department, 
-        while financial management is directly under the supervision of the Treasurer.
-        </p>
-
+          <br><br>
+          The Management has appointed a Secretary-General under the Chairperson, who is given 
+          the task of managing the day-to-day activities assisted by the Operations Department, 
+          Human Resources and General Affairs Department and the Research & Development Department, 
+          while financial management is directly under the supervision of the Treasurer.
+          </p>
+          @elseif (App::currentLocale()=="id")
+          Sejalan dengan perkembangan organisasi, sejak 1 Juli 2020, Yayasan Wadah membuat sebuah 
+          platform organisasi agar Kerjasama antar Departemen semakin kokoh dan selaras dengan upaya 
+          tercapainya Visi dan Misi Wadah.
+          <br><br>
+          Pengurus mengangkat seorang Sekretaris Jendral dibawah Ketua, yang diberi tugas mengelola 
+          sehari-hari dibantu oleh Departemen Operasional, Departemen Sumber Daya Manusia dan Umum 
+          serta Departemen Pengembangan dan Penelitian sedangkan pengelolaan Keuangan langsung dibawah 
+          pengawasan Bendahara.
+          @endif
         <div class="col-12">
           <img src="{{asset('img/team/iso.jpg')}}" class="borderr centerpic" widht="100" height="300">
         </div>
