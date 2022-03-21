@@ -19,6 +19,7 @@ return [
     'notif' => 'Your message has been sent. Thank you!',
     'send' => 'Send Message',
     'locmap' => 'Operational Location',
+    'ourprog' => 'Our Program',
     
 
 

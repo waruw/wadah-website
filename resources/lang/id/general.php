@@ -20,6 +20,7 @@ return [
     'notif' => 'Pesan terkirim. Terima kasih!',
     'send' => 'Kirim',
     'locmap' => 'Lokasi Operasional',
+    'ourprog' => 'Program Kami',
     
 
     

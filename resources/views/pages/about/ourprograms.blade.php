@@ -29,7 +29,7 @@
   <div class="container">
     <div class="row title">
       <div class="section-title pt-4">
-        <h2>Our Programs</h2>
+        <h2>{{ __('general.ourprog') }}</h2>
       </div>
     </div>
     <div class="row content mb-4">
@@ -79,8 +79,9 @@
         </div>
 
         <div class="col pt-4 pt-lg-">
-          <h4 class="progcolor bold pb-3">EDUCATION</h4>
+          <h4 class="progcolor bold pb-3">{{ __('general.edu') }}</h4>
           <div>
+            @if (App::currentLocale()=="en")
             <p style="text-align:justify"> 
                 Education is the foundation in raising awareness to becoming a trained, 
                 skilled and trustworthyindividual. <br> <br>
@@ -89,10 +90,20 @@
                 high school and college levels. For non-formal education, Wadah assists 
                 pre-schools, assisted-learning classes and conducts various trainings. 
                 During the pandemic, Wadah has also given access to informal education 
-                to individuals through various FORUMS and WEBINARS.
+                to individuals through various FORUMS and WEBINARS.</p>
+            @elseif(App::currentLocale()=="id")
+            <p style="text-align:justify"> 
+              Pendidikan adalah salah satu alat untuk melahirkan pribadi dan keluarga di 
+              masyarakat yang tangguh, berdaya dan bermartabat. <br> <br>
+              Dari jalur pendidikan formal, Yayasan Wadah memfasilitasi pihak-pihak lain 
+              untuk memberikan beasiswa kepada dampingan-dampingan Wadah di SD, SMP, SMA 
+              sampai perguruan tinggi. Sedangkan di pendidikan non-formal, Wadah mendampingi 
+              PAUD, PENDAR dan menyelenggarakan pelatihan- pelatihan. Di masa pandemi, Wadah 
+              juga memberi akses pendidikan informal kepada pribadi-pribadi melalui FORUM dan WEBINAR.</p>
+            @endif
             </div>
             <div class="pt-4 center"> 
-              <a href="{{ url('/news')}}" class="btn btn-light">Read More</a></p>
+              <a href="{{ url('/news')}}" class="btn btn-light">Read More</a>
             </div>
           </div>
       </div>       
@@ -143,18 +154,27 @@
         </div>
 
         <div class="col pt-4 pt-lg-">
-          <h4 class="progcolor bold pb-3">HEALTH</h4>
+          <h4 class="progcolor bold pb-3">{{ __('general.health') }}</h4>
           <div>
             <p style="text-align:justify"> 
               <p style="text-align:justify"> 
+                @if (App::currentLocale()=="en")
                 Wadah Foundation supports individuals and groups involved in Health Centers 
                 and Health Service Centers to help promote awareness in healthy and clean 
                 lifestyle as well as to develop skills related to health programs. <br> <br>
                 Through this, it is expected that the said individuals and groups would be 
                 instrumental in helping their families and communities in healthy living.
+                @elseif (App::currentLocale()=="id")
+                Yayasan Wadah mendukung pribadi atau kelompok yang terlibat di Posyandu dan Pusat 
+                Pelayanan Kesehatan, agar sadar akan pola hidup bersih dan sehat serta memiliki 
+                keterampilan dibidang kesehatan. <br> <br>
+                Dengan demikian pribadi atau kelompok tersebut dapat membantu keluarga di 
+                masyarakat untuk hidup sehat.
+                @endif
+              </p>
             </div>
             <div class="pt-4 center"> 
-              <a href="{{ url('/news')}}" class="btn btn-light">Read More</a></p>
+              <a href="{{ url('/news')}}" class="btn btn-light">Read More</a>
             </div>
           </div>
       </div>       
@@ -205,15 +225,21 @@
         </div>
 
         <div class="col pt-4 pt-lg-">
-          <h4 class="progcolor bold pb-3">ECONOMIC DEVELOPMENT</h4>
+          <h4 class="progcolor bold pb-3">{{ __('general.econom') }}</h4>
           <div>
             <p style="text-align:justify"> 
               <p style="text-align:justify"> 
+                @if (App::currentLocale()=="en")
                 Wadah Foundation assists individuals and families to be trained and skilled in 
                 managing their own potentials in order for them to become strong, empowered and dignified.
+                @elseif (App::currentLocale()=="id")
+                Yayasan Wadah mendampingi pribadi dan keluarga agar terlatih dan terampil mengelola potensi yang 
+                dimiliki, sehingga tangguh, berdaya, dan bermartabat.
+                @endif
+              </p>
             </div>
             <div class="pt-4 center"> 
-              <a href="{{ url('/news')}}" class="btn btn-light">Read More</a></p>
+              <a href="{{ url('/news')}}" class="btn btn-light">Read More</a>
             </div>
           </div>
       </div>       
