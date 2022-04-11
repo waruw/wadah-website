@@ -133,7 +133,7 @@
               Jl. Penjernihan II No. 7<br>
               Kel. Bendungan Hilir, Kec. Tanah abang<br>
               Jakarta Pusat 10210<br>
-              Indonesia <br><br><br><br>
+              Indonesia <br><br>
               <strong>Phone:</strong> (+62)21 5799-2162<br>
               <strong>Email:</strong> info@wadahfoundation.or.id<br>
             </p>
@@ -167,6 +167,9 @@
               <a href="instagram.com/wadahfoundation" class="instagram"><i class="bx bxl-instagram"></i></a>
               <a href="https://www.youtube.com/user/wadahfoundation" class="Youtube"><i class="bx bxl-youtube"></i></a>
               <a href="https://www.linkedin.com/company/wadahfoundation" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <div class="mt-4">
+              <a href="https://give2asia.org/wadahfoundation/"><img src="{{asset('img/give2asia.png')}}" widht="auto" height="40";> </a>
             </div>
           </div>
 

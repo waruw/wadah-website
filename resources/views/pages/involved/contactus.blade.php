@@ -12,7 +12,7 @@
   <div class="container">
     <div class="row title">
       <div class="section-title pt-4">
-        <h2>Call or Visit</h2>
+        <h2>{{ __('general.call') }}</h2>
       </div>
     </div>
   
@@ -30,7 +30,7 @@
         <div class="info">
           <div class="address">
             <i class="bi bi-geo-alt"></i>
-            <h4>Location:</h4>
+            <h4>{{ __('general.loc') }}</h4>
             <p><b>Rumah Wadah</b> <br>
               Jl. Penjernihan II No. 7<br>
               Kel. Bendungan Hilir, Kec. Tanah abang<br>
@@ -42,7 +42,7 @@
               Yogyakarta 55222</p>
 
             <p><b>Rumah Wadah Daerah Sikka</b> <br>
-              Jl. Ahmad Yani No. 14  Maumere - Flores<br>
+              Jl. Don Juan, RT. 002/RW. 004, Ke. Kota Uneng, Kec. Alok, Kab. Sikka<br>
               Nusa Tenggara Timur 86111</p>
 
             <p><b>Rumah Wadah Daerah Kupang-Koa</b> <br>
@@ -62,7 +62,7 @@
 
           <div class="phone">
             <i class="bi bi-phone"></i>
-            <h4>Call:</h4>
+            <h4>{{ __('general.phone') }}</h4>
             <p>(+62)21 5799-2162</p>
           </div>    
         </div>
@@ -72,20 +72,20 @@
         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
           <div class="row">
             <div class="form-group col-md-6">
-              <label for="name">Your Name</label>
+              <label for="name">{{ __('general.name') }}</label>
               <input type="text" name="name" class="form-control" id="name" required>
             </div>
             <div class="form-group col-md-6">
-              <label for="name">Your Email</label>
+              <label for="name">{{ __('general.email') }}</label>
               <input type="email" class="form-control" name="email" id="email" required>
             </div>
           </div>
           <div class="form-group">
-            <label for="name">Subject</label>
+            <label for="name">{{ __('general.subj') }}</label>
             <input type="text" class="form-control" name="subject" id="subject" required>
           </div>
           <div class="form-group">
-            <label for="name">Message</label>
+            <label for="name">{{ __('general.mess') }}</label>
             <textarea class="form-control" name="message" rows="10" required></textarea>
           </div>
           <div class="my-3">
@@ -93,7 +93,7 @@
             <div class="error-message"></div>
             <div class="sent-message">Your message has been sent. Thank you!</div>
           </div>
-          <div class="text-center"><button type="submit">Send Message</button></div>
+          <div class="text-center"><button type="submit">{{ __('general.send') }}</button></div>
         </form>
       </div>
 

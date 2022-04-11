@@ -13,33 +13,50 @@
     <div class="row title">
       <div class="section-title pt-4">
         <img src="{{asset('img/event/wgg/wgg.png')}}" width="150" height="127">
+        <a href="{{ url('/wgg')}}"><h2 class="pt-4">Wadah Global Gathering</h2></a>
+        <h3>{{ __('general.them') }}</h3>
         </div>
     </div>
     <div class="row content">
       <div class="center mb-3">
-          <h3>EDUCATION: BUILDING BLOCKS</h3>
-          <h3>OF A BETTER FUTURE</h3>
-          <h4>2nd Wadah Global Gathering</h4>
-          <h4>Yogyakarta, Indonesia</h4>
-          <h4>March 18 - 20, 2015</h4> <br>
-          <h3>Theme & Event</h3>
-          <p>At the 2nd Wadah Global Gathering held in Yogyakarta, Indonesia, 
-            on March 18-20, 2015, selected youths from Afghanistan, Bhutan, 
-            India, Indonesia, Nepal, and the Philippines shared the stage 
-            with four CNN Heroes of the Year and held the audience in their 
-            thrall with their graphic tales and heart-rending aspirations.</p><br>
+        @if (App::currentLocale()=="en")
+        <h3>EDUCATION: BUILDING BLOCKS</h3>
+        <h3>OF A BETTER FUTURE</h3>
+        <h4>2nd Wadah Global Gathering</h4>
+        <h4>Yogyakarta, Indonesia</h4>
+        <h4>March 18 - 20, 2015</h4> <br>
+        <p>At the 2nd Wadah Global Gathering held in Yogyakarta, Indonesia, 
+          on March 18-20, 2015, selected youths from Afghanistan, Bhutan, 
+          India, Indonesia, Nepal, and the Philippines shared the stage 
+          with four CNN Heroes of the Year and held the audience in their 
+          thrall with their graphic tales and heart-rending aspirations.</p><br>
+        @elseif(App::currentLocale()=="id")
+        <h3>PENDIDIKAN: BUILDING BLOCKS</h3>
+        <h3>MASA DEPAN YANG LEBIH BAIK</h3>
+        <h4>Wadah Global Gathering ke-2</h4>
+        <h4>Yogyakarta, Indonesia</h4>
+        <h4>18 - 20 Maret 2015</h4> <br>
+        <p>Pada Wadah Global Gathering ke-2 yang diadakan di Yogyakarta, Indonesia, 
+          pada tanggal 18-20 Maret 2015, pemuda terpilih dari Afghanistan, Bhutan, India, 
+          Indonesia, Nepal, dan Filipina berbagi panggung dengan empat CNN Heroes of the 
+          Year dan membuat penonton terpesona dengan kisah grafis dan aspirasi yang menyayat hati.</p><br>
+        @endif
           
           <img src="{{asset('img/event/wgg/buildingblocks.png')}}" width="300" height="110">
 
+          @if (App::currentLocale()=="en")
           <p>Adopting the theme, “Education: Building Blocks of a Better 
             Future,” the Next Generation made a statement and unleashed their 
-            leadership potential. 
-            <br><br>
+            leadership potential.</p>
+          @elseif(App::currentLocale()=="id")
+          <p>Mengadopsi tema, “Pendidikan: Building Blocks Masa Depan yang Lebih Baik,” Generasi Berikutnya 
+            membuat pernyataan dan mengeluarkan potensi kepemimpinan mereka. </p>
+          @endif
         </div>
 
 
         <div class="center">
-        <h3>Keynote Speakers</h3> <br>
+        <h3>{{ __('general.keyspeak') }}</h3> <br>
         </div>
         <div class="row">
 
@@ -53,7 +70,7 @@
 
         <div class="container">
         <div style="text-align:center">
-        <h3> Guest Speakers </h3> <br>
+        <h3> {{ __('general.gspeak') }}</h3> <br>
         </div>
         <div class="row">
 
@@ -68,38 +85,41 @@
 
         <div class="container">
         <div style="text-align:center">
-            <h3>Session Moderators</h3> <br>
+            <h3>{{ __('general.msesi') }}</h3> <br>
         </div>
         <div class="row">
 
-                        <div class="col-md-1"></div>
-                        <div class="col-md-1"></div>    
-                    <div class="col-md-9">
-                    <ul type="disc" style="text-align:left">
-        <h4 style="color:#208b3a">Dreamer's From Afar</h4><br>
-        <h5>SONAM PEM</h5>
-        <br>
+                <div class="col-md-1"></div>
+                <div class="col-md-1"></div>    
+            <div class="col-md-9">
+            <ul type="disc" style="text-align:left">
 
-        <h4 style="color:#208b3a">From Nowhere To Somewhere</h4><br>
-        <h5>ROBIN LIM</h5>
-        <br>
+                    <h4 style="color:#208b3a">Dreamer's From Afar</h4><br>
+                    <h5>SONAM PEM</h5>
+                    <br>
 
-        <h4 Style="color:#208b3a">Jewels In The Bustling Cities</h4><br>
-        <h5>EFREN PEÑFLORIDA, JR.</h5>
-        <br>
+                    <h4 style="color:#208b3a">From Nowhere To Somewhere</h4><br>
+                    <h5>ROBIN LIM</h5>
+                    <br>
 
-        <h4 Style="color:#208b3a">Abandoned No More</h4><br>
-        <h5>PUSHPHA BASNET</h5>
-        <br>
+                    <h4 Style="color:#208b3a">Jewels In The Bustling Cities</h4><br>
+                    <h5>EFREN PEÑFLORIDA, JR.</h5>
+                    <br>
 
-        <h4 Style="color:#208b3a">Victors True And Through</h4><br>
-        <h5>FR. BEINVENIDO "NED" BISU</h5>
-        <br>
+                    <h4 Style="color:#208b3a">Abandoned No More</h4><br>
+                    <h5>PUSHPHA BASNET</h5>
+                    <br>
+
+                    <h4 Style="color:#208b3a">Victors True And Through</h4><br>
+                    <h5>FR. BEINVENIDO "NED" BISU</h5>
+                    <br>
+
+                       
         </div>
 
         <div class="container">
         <div style="text-align:center">
-            <h3>Youth Speakers</h3> <br>
+            <h3>{{ __('general.yspeak') }}</h3> <br>
         </div>
         <div class="row">
 
@@ -177,7 +197,7 @@
 
         <div class="section-title">
 
-          <p class="pt-2 mb-3">Read about the happenings at the Wadah Gathering in our newsletter below:</p>
+          <p class="pt-2 mb-3">{{ __('general.readchro') }}</p>
           <a href="{{ url('https://drive.google.com/file/d/107YVu4PWA52zdt-bNQfUelCqpcpzKbfh/view')}}">
             <img src="{{asset('img/media/newsletter/wgg.jpg')}}" widht="auto" height="250"> </a>
             <br><br>

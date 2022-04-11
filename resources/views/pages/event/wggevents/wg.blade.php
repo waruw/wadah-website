@@ -15,14 +15,18 @@
     <div class="row title">
       <div class="section-title pt-4">
         <img src="{{asset('img/event/wgg/wgg.png')}}" width="150" height="127">
+        <a href="{{ url('/wgg')}}"><h2 class="pt-4">Wadah Global Gathering</h2></a>
+        <h3>{{ __('general.event') }}</h3>
         </div>
     </div>
     <div class="row content">
       <div class="center mb-3">
+
+        @if (App::currentLocale()=="en")
+
           <h3>Wadah Gathering</h3>
           <h4>Jakarta, Indonesia</h4>
           <h4>27 - 29 May 2009</h4> <br>
-          <h3> Event</h3>
           <p>The first Wadah Gathering was held in Jakarta, Indonesia in May 2009. 
               It convened Wadah's pioneering heroes and homegrown champions who overcame 
               tremendous odds to empower communities at the grassroots level. The Gathering 
@@ -30,11 +34,28 @@
               international audience with whom they shared their tears, their triumphs, 
               their strategies to advance progress for women and Indonesian society. 
             <br><br>
+
+        @elseif(App::currentLocale()=="id")
+
+          <h3>Wadah Gathering</h3>
+          <h4>Jakarta, Indonesia</h4>
+          <h4>27 - 29 Mei 2009</h4> <br>
+          <p>Wadah Gathering pertama diadakan di Jakarta, Indonesia pada Mei 2009. 
+            Pertemuan tersebut mempertemukan para pahlawan perintis dan kader 
+            Wadah yang mengatasi rintangan luar biasa untuk memberdayakan masyarakat 
+            di tingkat akar rumput. Pertemuan tersebut meningkatkan visibilitas para 
+            pekerja lapangan dan memberi mereka akses ke audiens internasional yang 
+            dimana mereka berbagi air mata, kemenangan mereka, dan strategi mereka untuk 
+            kemajuan bagi perempuan dan masyarakat Indonesia. 
+            <br><br>
+
+        @endif
+
         </div>
 
 
   <div class="center">
-    <h3> Speakers </h3> <br>
+    <h3> {{ __('general.speak') }} </h3> <br>
 </div>
 <div class="row">
 
@@ -64,7 +85,7 @@
 
 <div class="section-title">
 
-    <p class="pt-5 mb-3">Read about the happenings at the Wadah Gathering in our newsletter below:</p>
+    <p class="pt-5 mb-3">{{ __('general.readchro') }}</p>
     <a href="{{ url('https://drive.google.com/file/d/1rQHQ8Za4ogEdQFYj3jlk__zofOv2QjoT/view')}}">
       <img src="{{asset('img/media/newsletter/2009-2.jpg')}}" widht="auto" height="250"> </a>
       <br><br>

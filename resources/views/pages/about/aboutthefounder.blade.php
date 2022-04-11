@@ -13,7 +13,7 @@
     <div class="container">
       <div class="row title">
         <div class="section-title pt-4">
-          <h2>The Founder</h2>
+          <h2>{{ __('general.found') }}</h2>
         </div>
       </div>
 

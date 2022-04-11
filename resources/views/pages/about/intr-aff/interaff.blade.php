@@ -12,7 +12,7 @@
   <div class="container">
     <div class="row title">
         <div class="section-title pt-4">
-          <h2>International Affiliations</h2>
+          <h2>{{ __('general.affint') }}</h2>
         </div>
     </div>
 

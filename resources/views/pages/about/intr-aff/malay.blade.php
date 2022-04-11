@@ -15,7 +15,7 @@
   <div class="container">
     <div class="row title">
       <div class="section-title pt-4">
-        <a href="{{ url('/int-afl')}}"><H2>International Affiliations</h2></a>
+        <a href="{{ url('/int-afl')}}"><H2>{{ __('general.affint') }}</h2></a>
       </div>
     </div>
     <div class="row content">

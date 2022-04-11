@@ -14,7 +14,7 @@
   <div class="container">
     <div class="row title">
       <div class="section-title pt-4">
-        <h2>Donation</h2>
+        <h2>{{ __('general.donation') }}</h2>
         <h3>Make A Difference</h3>
         <h3>Through Life-Changing Gifts
       </div>
@@ -85,7 +85,7 @@
       
         <div class="col-md-4 mb-3">
           <h5>VIA QRIS</h5>
-          <h6>YAYASAN WADAH TITIAN HARAPAN</h6>
+          <h6>YAYASAN WADAH TITIAN HRPN</h6>
           <img src="{{asset('img/donate/qrisywth.jpg')}}" width="200px" height="auto">
         </div>
 

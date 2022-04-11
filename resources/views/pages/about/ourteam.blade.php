@@ -28,7 +28,7 @@
   <div class="container">
     <div class="row title">
       <div class="section-title pt-4">
-        <h2>Our Team</h2>
+        <h2>{{ __('general.team') }}</h2>
       </div>
     </div>
 
@@ -38,7 +38,7 @@
             <img class="borderr centerpic" src="{{asset('img/team/ahd.jpg')}}" widht="auto" height="250";>
             <div class="center">
               <h5 class="mb-0">Anie Djojohadikusumo</h5>
-              <p>President</p>
+              <p>{{ __('general.president') }}</p>
             </div>
             </div>
 
@@ -46,7 +46,7 @@
           <img class="borderr centerpic" src="{{asset('img/team/psl.jpg')}}" widht="auto" height="250";>
           <div class="center">
           <h5 class="mb-0">Paula S. N. Landowero</h5>
-          <p>Secretary General</p>
+          <p>{{ __('general.sek') }}</p>
           </div>
         </div>
 
@@ -54,7 +54,7 @@
           <img class="borderr centerpic" src="{{asset('img/team/lj.jpg')}}" widht="auto" height="250";>
           <div class="center">
           <h5 class="mb-0">Lilik Juniarti</h5>
-          <p>Treasurer</p>
+          <p>{{ __('general.trea') }}</p>
           </div>
         </div>
 
@@ -62,7 +62,7 @@
           <img class="borderr centerpic" src="{{asset('img/team/zs.jpg')}}" widht="auto" height="250";>
           <div class="center">
           <h5 class="mb-0">Zakiyah Samal</h5>
-          <p>Head - Operations Department</p>
+          <p>{{ __('general.ops') }}</p>
           </div>
         </div>
 
@@ -70,7 +70,7 @@
           <img class="borderr centerpic" src="{{asset('img/team/lp.jpg')}}" widht="auto" height="250";>
           <div class="center">
           <h5 class="mb-0">Cecilia Parengkuan</h5>
-          <p>Head - HR Department</p>
+          <p>{{ __('general.hr') }}</p>
           </div>
         </div>
 
@@ -78,7 +78,7 @@
           <img class="borderr centerpic" src="{{asset('img/team/yg.jpg')}}" widht="auto" height="250";>
           <div class="center">
           <h5 class="mb-0">Ghewa Yohanes</h5>
-          <p>Head - R&D Department</p>
+          <p>{{ __('general.pnp') }}</p>
           </div>
         </div>
 

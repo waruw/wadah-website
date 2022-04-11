@@ -12,7 +12,7 @@
   <div class="container">
     <div class="row title">
       <div class="section-title pt-4">
-      <h2>Wadah Networks</h2>
+      <h2>{{ __('general.netw') }}</h2>
       </div>
     <div class="row content">
       <div class="container">
