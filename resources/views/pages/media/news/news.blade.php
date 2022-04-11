@@ -2,8 +2,6 @@
 @section('container')
 <main id="main">
 
-<main id="main">
-
   <section id="breadcrumbs" class="breadcrumbs">
     <div class="container">
     </div>
@@ -34,8 +32,8 @@
                                 <a href="">{{$news->category->nama_kategori}}</a>
                                 <small class="align-self-center fw-light fst-italic">{{$news->created_at->format('d/m/Y')}}</small>
                             </div>
-                            <p style="text-align:justify"; class="pt-3">{!!\Illuminate\Support\Str::limit($news->article, 289, '...')!!} 
-                                <a href='{{route('news.show', $news->slug)}}' class="float-end btn btn-sm btn-outline-dark">Read More</a></p>
+                            <p style="text-align:justify"; class="pt-3">{!!\Illuminate\Support\Str::limit($news->article, 250, '...')!!} 
+                                {{-- <a href='{{route('news.show', $news->slug)}}' class="float-end btn btn-sm btn-outline-dark">Read More</a></p> --}}
                         </div>
                     </div>
                 </div>
@@ -59,8 +57,8 @@
                                             <small class="align-self-center fw-light fst-italic">{{$news->created_at->format('d/m/Y')}}</small>
                                         </div>
                                         <div class="pnewspost">
-                                            <p style="text-align:justify";>{!!\Illuminate\Support\Str::limit($news->article, 130, '...')!!} 
-                                            <a href='{{route('news.show', $news->slug)}}' class="float-end btn btn-sm btn-outline-dark">Read More</a></p>
+                                            <p style="text-align:justify";>{!!\Illuminate\Support\Str::limit($news->article, 160, '...')!!} 
+                                            {{-- <a href='{{route('news.show', $news->slug)}}' class="float-end btn btn-sm btn-outline-dark">Read More</a></p> --}}
                                         </div>
                                     </div>
                                 </div>

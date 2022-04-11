@@ -80,10 +80,12 @@
                 @endforeach
         </div>
         </div>
-
+        
+        <p class="back mt-4"> <a href="{{ url('/news')}}"><< BACK</a></p>
               
     </div>
-</div>
+    </div>
+
 </section>
 
 </main><!-- End #main -->

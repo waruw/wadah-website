@@ -11,14 +11,14 @@
 
 <header>
     
-  <div class="embed-responsive embed-responsive-16by9" id="holder" style="pointer-events: none;">
+  {{-- <div class="embed-responsive embed-responsive-16by9" id="holder" style="pointer-events: none;">
     <iframe class="frame" width="auto" height="auto" 
        src="https://www.youtube.com/watch?v=xMnjjAFMdBQ&amp; 
        controls=0&amp;showinfo=0;autoplay=1&mute=1&loop=1&playlist=4hIZUCKsio 
        0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; 
        picture- 
        in-picture" allowfullscreen></iframe>
- </div>
+ </div> --}}
 
  
   {{-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">

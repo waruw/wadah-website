@@ -134,28 +134,22 @@
               Kel. Bendungan Hilir, Kec. Tanah abang<br>
               Jakarta Pusat 10210<br>
               Indonesia <br><br>
-              <strong>Phone:</strong> (+62)21 5799-2162<br>
-              <strong>Email:</strong> info@wadahfoundation.or.id<br>
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <br><br>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/')}}">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/about-us')}}">About</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/news')}}">News</a></li>
-
+              <strong>Phone:</strong> (+62)21 5799-2162<br>
+              <strong>Email:</strong> info@wadahfoundation.or.id<br>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Programs</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/our-programs')}}">Education</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/our-programs')}}">Health</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/our-programs')}}">Economic Empowerment</a></li>
-            </ul>
+            <br>
+            <div class="mt-4">
+              <a href="https://give2asia.org/wadahfoundation/"><img src="{{asset('img/give2asia.png')}}" widht="auto" height="40";> </a>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
@@ -168,9 +162,7 @@
               <a href="https://www.youtube.com/user/wadahfoundation" class="Youtube"><i class="bx bxl-youtube"></i></a>
               <a href="https://www.linkedin.com/company/wadahfoundation" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
-            <div class="mt-4">
-              <a href="https://give2asia.org/wadahfoundation/"><img src="{{asset('img/give2asia.png')}}" widht="auto" height="40";> </a>
-            </div>
+
           </div>
 
         </div>
