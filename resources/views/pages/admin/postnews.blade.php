@@ -66,6 +66,11 @@
                 <textarea class="form-control" name="article" placeholder="Article" id="article"></textarea>
               </div>
 
+              <div class="mb-3">
+                <label for="image" class="form-label">Image2</label>
+                <input type="file" name="image2" class="form-control" id="image2">
+              </div>
+              
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
       </div>

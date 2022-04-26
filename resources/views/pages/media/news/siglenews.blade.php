@@ -81,7 +81,7 @@
         </div>
         </div>
         
-        <p class="back mt-4"> <a href="{{ url('/news')}}"><< BACK</a></p>
+        <h6 class="back mt-4"> <a href="{{ url('/news')}}"><< BACK</a></h6>
               
     </div>
     </div>

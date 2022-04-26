@@ -66,7 +66,9 @@
                         </div>
                     @endforeach
                 </div>
+                <h6 class="right mt-4"> <a href="{{ url('/news')}}">MORE >></a></h6>
             </div>
+
 
             <div class="col-md-4">
                 <div class="bg-light py-2 px-4 mb-3">

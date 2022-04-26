@@ -34,7 +34,15 @@
 
     <div class="row content">
 
-        <div class="col-md-4">
+      <div class="carousel-item active" style="background-image">
+        <img src="{{asset('img/header/1.jpg')}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+
+
+        {{-- <div class="col-md-4">
             <img class="borderr centerpic" src="{{asset('img/team/ahd.jpg')}}" widht="auto" height="250";>
             <div class="center">
               <h5 class="mb-0">Anie Djojohadikusumo</h5>
@@ -80,7 +88,7 @@
           <h5 class="mb-0">Ghewa Yohanes</h5>
           <p>{{ __('general.pnp') }}</p>
           </div>
-        </div>
+        </div> --}}
 
     </div>
   </div>
