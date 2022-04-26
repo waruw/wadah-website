@@ -35,9 +35,11 @@
     <div class="row content">
 
       <div class="carousel-item active" style="background-image">
-        <img src="{{asset('img/header/1.jpg')}}" class="d-block w-100" alt="...">
+        <img src="{{asset('img/team/team.jpg')}}" class="d-block w-100" alt="...">
         <div class="carousel-caption">
-          <p>Some representative placeholder content for the first slide.</p>
+          <p>Ghewa Yohanes, Lia Parengkuan, Retnaning Tyas, Zakiyah Samal, Anie Djojohadikusumo, Paula Stela Landowero,
+            Lilik Juniarti, Adi Hermawan
+          </p>
         </div>
       </div>
 
