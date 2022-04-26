@@ -16,19 +16,19 @@
         <div class="carousel-item active" style="background-image">
           <img src="{{asset('img/header/1.jpg')}}" class="d-block w-100" alt="...">
           <div class="carousel-caption">
-            <p>Some representative placeholder content for the first slide.</p>
+            <p>Caption</p>
           </div>
         </div>
         <div class="carousel-item" style="background-image">
           <img src="{{asset('img/header/2.jpg')}}" class="d-block w-100" alt="...">
           <div class="carousel-caption">
-            <p>Some representative placeholder content for the second slide.</p>
+            <p>Caption</p>
           </div>
         </div>
         <div class="carousel-item" style="background-image">
           <img src="{{asset('img/header/3.jpg')}}" class="d-block w-100" alt="...">
           <div class="carousel-caption">
-            <p>Some representative placeholder content for the third slide.</p>
+            <p>Caption</p>
           </div>
         </div>
         <div class="carousel-item" style="background-image">

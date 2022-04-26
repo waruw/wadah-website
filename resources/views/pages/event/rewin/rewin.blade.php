@@ -61,13 +61,13 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <img src="{{asset('img/event/rewin/1st/1.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>2nd Remaja Wadah Indonesia (REWIN)</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                   <img src="{{asset('img/event/rewin/1st/2.jpg')}}" widht="auto" height="400" alt="">
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>2nd Remaja Wadah Indonesia (REWIN)</p>
                   </div>
                 </div>
               </div>
@@ -121,13 +121,13 @@
                   <div class="carousel-item active" data-bs-interval="10000">
                     <img src="{{asset('img/event/rewin/2nd/1.jpg')}}" widht="auto" height="400" alt="">
                     <div class="carousel-caption d-none d-md-block">
-                      <p>Caption</p>
+                      <p>1st Remaja Wadah Indonesia (REWIN)</p>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="2000">
                     <img src="{{asset('img/event/rewin/2nd/2.jpg')}}" widht="auto" height="400" alt="">
                     <div class="carousel-caption d-none d-md-block">
-                      <p>Caption</p>
+                      <p>1st Remaja Wadah Indonesia (REWIN)</p>
                     </div>
                   </div>
                 </div>

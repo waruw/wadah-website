@@ -67,49 +67,49 @@
           <div class="carousel-item active" data-bs-interval="10000">
             <img src="{{asset('img/event/rewin/1st/1.jpg')}}" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <p>Caption</p>
+              <p>1st Remaja Wadah Indonesia (REWIN)</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
             <img src="{{asset('img/event/rewin/1st/2.jpg')}}" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <p>Caption</p>
+              <p>1st Remaja Wadah Indonesia (REWIN)</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="{{asset('img/event/rewin/1st/3.jpg')}}" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <p>Caption</p>
+              <p>1st Remaja Wadah Indonesia (REWIN)</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="{{asset('img/event/rewin/1st/4.jpg')}}" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <p>Caption</p>
+              <p>1st Remaja Wadah Indonesia (REWIN)</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="{{asset('img/event/rewin/1st/5.jpg')}}" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <p>Caption</p>
+              <p>1st Remaja Wadah Indonesia (REWIN)</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="{{asset('img/event/rewin/1st/6.jpg')}}" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <p>Caption</p>
+              <p>1st Remaja Wadah Indonesia (REWIN)</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="{{asset('img/event/rewin/1st/7.jpg')}}" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <p>Caption</p>
+              <p>1st Remaja Wadah Indonesia (REWIN)</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="{{asset('img/event/rewin/1st/8.jpg')}}" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <p>Caption</p>
+              <p>1st Remaja Wadah Indonesia (REWIN)</p>
             </div>
           </div>
         </div>

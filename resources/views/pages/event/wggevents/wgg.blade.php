@@ -59,31 +59,31 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <img src="{{asset('img/event/wgg/2018/1.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>The 3rd Wadah Global Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                   <img src="{{asset('img/event/wgg/2018/2.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>The 3rd Wadah Global Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2018/3.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>The 3rd Wadah Global Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2018/4.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>The 3rd Wadah Global Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2018/5.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>The 3rd Wadah Global Gathering</p>
                   </div>
                 </div>
               </div>
@@ -169,31 +169,31 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <img src="{{asset('img/event/wgg/2015/1.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>The 2nd Wadah Global Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                   <img src="{{asset('img/event/wgg/2015/2.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>The 2nd Wadah Global Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2015/3.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>The 2nd Wadah Global Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2015/4.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>The 2nd Wadah Global Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2015/5.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>The 2nd Wadah Global Gathering</p>
                   </div>
                 </div>
               </div>
@@ -229,31 +229,31 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <img src="{{asset('img/event/wgg/2012/1.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>1st Wadah Global Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                   <img src="{{asset('img/event/wgg/2012/2.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>1st Wadah Global Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2012/3.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>1st Wadah Global Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2012/4.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>1st Wadah Global Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2012/5.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>1st Wadah Global Gathering</p>
                   </div>
                 </div>
               </div>
@@ -342,31 +342,31 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <img src="{{asset('img/event/wgg/2010/1.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>1st Wadah International Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                   <img src="{{asset('img/event/wgg/2010/2.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>1st Wadah International Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2010/3.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>1st Wadah International Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2010/4.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>1st Wadah International Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2010/5.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>1st Wadah International Gathering</p>
                   </div>
                 </div>
               </div>
@@ -403,31 +403,31 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                   <img src="{{asset('img/event/wgg/2009/1.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>Wadah Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                   <img src="{{asset('img/event/wgg/2009/2.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>Wadah Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2009/3.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>Wadah Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2009/4.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>Wadah Gathering</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img src="{{asset('img/event/wgg/2009/5.jpg')}}" widht="auto" height="400"  alt="" />
                   <div class="carousel-caption d-none d-md-block">
-                    <p>Caption</p>
+                    <p>Wadah Gathering</p>
                   </div>
                 </div>
               </div>
