@@ -53,7 +53,14 @@ return [
     'karir' => 'LOWONGAN KERJA',
     'voluntir' => 'BERGABUNG MENJADI SUKARELAWAN',
     'linkvoluntir' => 'LINK PROGRAM SUKARELAWAN',
-    'donation' => 'SUMBANGAN',
+    'donation' => 'DONASI',
+    'newsmed' => 'Berita Wadah',
+    'leavecom' => 'Berikan komentar',
+    'namemed' => 'Nama',
+    'messagemed' => 'Komentar',
+    'simil' => 'Kategori Sejenis:',
+    'back' => 'KEMBALI',
+    'leavecom' => 'Tinggalkan komentar',
 
 
 

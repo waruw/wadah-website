@@ -2,68 +2,90 @@
 @section('container')
 
 
-  <header>
-    
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" style="background-image">
-          <img src="{{asset('img/header/1.jpg')}}" class="d-block w-100" alt="...">
+<section>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="{{asset('img/header/1.jpg')}}" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <div class="container">
           <div class="carousel-caption">
-            <p>Caption</p>
-          </div>
-        </div>
-        <div class="carousel-item" style="background-image">
-          <img src="{{asset('img/header/2.jpg')}}" class="d-block w-100" alt="...">
-          <div class="carousel-caption">
-            <p>Caption</p>
-          </div>
-        </div>
-        <div class="carousel-item" style="background-image">
-          <img src="{{asset('img/header/3.jpg')}}" class="d-block w-100" alt="...">
-          <div class="carousel-caption">
-            <p>Caption</p>
-          </div>
-        </div>
-        <div class="carousel-item" style="background-image">
-          <img src="{{asset('img/header/4.jpg')}}" class="d-block w-100" alt="...">
-          <div class="carousel-caption">
-            <p>Solar electrician training, in India.</p>
+            <h1>We grow to serve and we serve
+              <br>
+              so that others may grow together with us.
+            </h1>
+            <p>Anie Hashim Djojohadikusumo, Founder</p>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=xMnjjAFMdBQ&t=40s" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="{{asset('img/header/2.jpg')}}" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
 
-    <div class="tagline">
-      <h1>We grow to serve and we serve <br>
-        so that others may grow together with us.</h1>
-        <h6>Anie Hashim Djojohadikusumo, Founder</h6>
-            <!-- ======= belum bisa diakses ======= -->
-        {{-- <div> 
-          <a href="https://www.youtube.com/watch?v=xMnjjAFMdBQ" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>We grow to serve and we serve
+              <br>
+              so that others may grow together with us.
+            </h1>
+            <p>Anie Hashim Djojohadikusumo, Founder</p>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=xMnjjAFMdBQ&t=40s" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
         </div>
-        <div class="d-flex justify-content-center justify-content-lg-start">
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        </div> --}}
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="{{asset('img/header/3.jpg')}}" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
 
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>We grow to serve and we serve
+              <br>
+              so that others may grow together with us.
+            </h1>
+            <p>Anie Hashim Djojohadikusumo, Founder</p>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=xMnjjAFMdBQ&t=40s" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="bd-placeholder-img" width="100%" height="100%" src="{{asset('img/header/4.jpg')}}" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>We grow to serve and we serve
+              <br>
+              so that others may grow together with us.
+            </h1>
+            <p>Anie Hashim Djojohadikusumo, Founder</p>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=xMnjjAFMdBQ&t=40s" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+        </div>
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-  
-  </header>
+
+</section>
 
   <main id="main">
 

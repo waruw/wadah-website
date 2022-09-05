@@ -52,6 +52,18 @@ return [
     'voluntir' => 'VOLUNTEER',
     'linkvoluntir' => 'VOLUNTEER PROGRAM LINK',
     'donation' => 'DONATION',
+    'newsmed' => 'Wadah News',
+    'leavecom' => 'Leave a comment',
+    'namemed' => 'Name',
+    'messagemed' => 'Messege',
+    'simil' => 'Similar Category:',
+    'back' => 'BACK',
+    'leavecom' => 'Leave a comment',
+    
+
+
+
+
 
 
     

@@ -172,3 +172,28 @@ padding: 20px; /* Some padding */
     text-align: right;
     font-weight: bold;
 }
+
+.sizelogo {
+    width: auto;
+    height: 60px;
+}
+
+.motto{
+    font-size: 40px;
+}
+
+.founder{
+    font-size: 20px;
+}
+
+.carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+.sizepicside {
+    height: auto;
+    width: 130px;
+}
+  

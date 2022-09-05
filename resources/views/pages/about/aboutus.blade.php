@@ -117,8 +117,8 @@
         yang berkantor di Jakarta, Indonesia. Wadah didirikan karena keprihatinan seorang Ibu terhadap kondisi 
         sumber daya manusia di tataran akar rumput.
         <br><br>
-        Wadah adalah singkatan dari kata Wanita dan Harapan. Wadah, yang dalam Bahasa Indonesia secara harafiah 
-        berarti tempat, namun dalam prakteknya berarti juga keluarga atau komunitas.
+        Wadah adalah singkatan dari kata Wanita dan Harapan. Wadah, yang dalam Bahasa Indonesia secara harfiah 
+        berarti tempat, namun dalam praktiknya berarti juga keluarga atau komunitas.
         <br><br>
         Yayasan Wadah memulai pelayanannya dengan mengajak pribadi dan keluarga untuk mempersiapkan generasi 
         bangsa yang lebih baik dengan memberikan perhatian kepada dunia pendidikan.  
@@ -150,14 +150,16 @@
               <div class="row justify-content-center pt-3 mb-3">
                   <p class="center sizefont bold color">Our Mission</p>
               </div>
-                <h4 class="center">Empowering individuals holistically through education, health, and economic development</h4>
+                <h4 class="center">Empowering individuals holistically through education, health, and economic development programs</h4>
         </div>
 
         <div class="container mb-3">
               <div class="row justify-content-center pt-3 mb-3">
                   <p class="center sizefont bold color">Our Objectives</p>
               </div>
-                  <h4 class="center">To produce community leaders who are well-trained, skilled and trusted in their fields</h4>
+                  <h4 class="center">To produce community leaders who are qualified, proficient, and
+                    accountable in their respective specialities
+                  </h4>
         </div>
 
           <div class="container mb-3">
@@ -240,7 +242,7 @@
 
   </div>
   
-  @endif
+    @endif
 
   </div>
 </section>
@@ -251,7 +253,7 @@
   <div class="services section-bg mb-3">
     <div class="row title">
       <div class="section-title pt-4">
-        <h2>WHAT MAKES WADAH "UNIQUE"?</h2>
+        <h3>WHAT MAKES WADAH "UNIQUE"?</h3>
     </div>
     </div>
 
@@ -308,7 +310,7 @@
     <div class="services section-bg mb-3">
       <div class="row title">
         <div class="section-title pt-4">
-          <h2>APA YANG MEMBUAT WADAH ITU "UNIK"?</h2>
+          <h3>APA YANG MEMBUAT WADAH ITU "UNIK"?</h3>
       </div>
       </div>
   
@@ -367,7 +369,7 @@
         <div  class="col-md-12 section-title pt-4">
           <h2>{{ __('general.locmap') }}</h2>
 
-          <img class="img-fluid" src="{{asset('img/aboutus/28_1.jpg')}}" widht="auto" height="800";>
+          <img class="img-fluid" src="{{asset('img/aboutus/peta.jpg')}}" widht="auto" height="800";>
 
        </div>
       </div>

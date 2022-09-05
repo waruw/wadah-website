@@ -49,7 +49,9 @@ class AdminPostController extends Controller
                 'title' => $request->title,
                 'category_id' => $request->category_id,
                 'image' => $file,
+                'image2' =>$file,
                 'article' => $request->article,
+                'articleid' => $request->articleid,
                 'created_at' => date('Y-m-d', strtotime($request->created_at)),
                 'slug' => Str::slug($request->title, '-'),
             ]

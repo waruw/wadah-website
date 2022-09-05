@@ -46,7 +46,11 @@
         <div class="row mb-2">
             
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                    <a href="{{ url('https://drive.google.com/file/d/13hREQDNrcxWBhBMzfhkqxaK6sb3H8IcS/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/12pPcsCzN6yD5sifcIPhYdF6DhF8t49AZ/view')}}" target="_blank">
+                    <img class="centerpic" src="{{asset('img/media/chronicles/2022-4.jpg')}}" widht="auto" height="200"></a>
+                </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
+                    <a href="{{ url('https://drive.google.com/file/d/13hREQDNrcxWBhBMzfhkqxaK6sb3H8IcS/view')}}"target="_blank">
                       <img class="centerpic" src="{{asset('img/media/chronicles/2021-8.jpg')}}" widht="auto" height="200"></a>
                   </div>
       

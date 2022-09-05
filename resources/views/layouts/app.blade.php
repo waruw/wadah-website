@@ -42,11 +42,10 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
-      <a href="{{ url('/')}}"><img src="{{asset('img/greenbesar.png')}}" widht="auto" height="60";> </a>
-      {{-- <h1 class="logo me-auto"><a href="{{asset('/')}}">WADAH</a></h1> --}}
+
+      <a class="logo me-auto" href="{{ url('/')}}"> <img src="{{asset('img/greenbesar.png')}}"> </a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -73,6 +72,7 @@
               <!-- <li><a href="{{ url('/blog')}}">Blog</a></li> -->
             </ul>
           </li>
+
           <li class="dropdown"><a href="#"><span>Event</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="{{ url('/wgg')}}">Wadah Global Gathering</a></li>
@@ -80,24 +80,28 @@
               {{-- <li><a href="{{ url('/coevents')}}">Co-Sponsored Events</a></li> --}}
             </ul>
           </li>
+
           <li class="dropdown"><a href="#"><span>Get Involved</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="{{ url('/contact-us')}}">Contact Us</a></li>
               <li><a href="{{ url('/join-us')}}">Join Us</a></li>
             </ul>
           </li>
-          <li><a class="btn btn-outline-succes box-line" href="{{ url('/donate')}}">Donate</a></li>
 
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          {{strtoupper(Lang::locale())}}
-          </a>
-          <ul lass="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="lang/id">ID</a></li>
-              <li><a class="dropdown-item" href="lang/en">EN</a></li>
+          <li><a href="{{ url('/donate')}}"><span class="box-line">Donate</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{strtoupper(Lang::locale())}}
+            </a>
+            <ul lass="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="lang/id">ID</a></li>
+                <li><a class="dropdown-item" href="lang/en">EN</a></li>
+            </ul>
+          </li>
         </ul>
-      </li>
+        
+          <i class="bi bi-list mobile-nav-toggle"></i>
       
       </nav><!-- .navbar -->
 
@@ -115,8 +119,17 @@
           <div class="col-lg-6">
             <h4>Subscribe to our Newsletter</h4>
             <p>Receive updated information and news by joining our mailing list:</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+            <form action="mailchimpapi" method="post">
+              <input type="email" name="email">
+              <input type="submit" value="Subscribe">
+              @csrf
+                @if (session('subscribed'))
+            <div class="alert alert-success">
+                {{ session('subscribed') }}
+            </div>
+             @endif
+             <label for="" class="text-white">Dapatkan berita terbaru via email</label>
+                <div class="input-group mb-3">
             </form>
           </div>
         </div>
