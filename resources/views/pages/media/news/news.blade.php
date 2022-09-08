@@ -44,8 +44,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            @break
-                        @endforeach
+                                @break
+                            @endforeach
 
                         <div class="row">
                             @foreach ($allNews as $news)
@@ -69,7 +69,7 @@
                                                         class="align-self-center fw-light fst-italic">{{ $news->created_at->format('d/m/Y') }}</small>
                                                 </div>
                                                 <div class="pnewspost">
-                                                    <p style="text-align:justify";>{{!! \Illuminate\Support\Str::limit($news->article, 100, '...') !!}}</p>
+                                                    <p style="text-align:justify";>{!! \Illuminate\Support\Str::limit($news->article, 100, '...') !!}</p>
                                                         {{-- <a href='{{route('news.show', $news->slug)}}' class="float-end btn btn-sm btn-outline-dark">Read More</a></p> --}}
                                                 </div>
                                             </div>
