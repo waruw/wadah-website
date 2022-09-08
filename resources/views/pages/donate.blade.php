@@ -104,7 +104,7 @@
             communities by donating via PayPal. Just click on the link below:
           </h6>
             <div class="justify-content-lg-start">
-            <a href="https://www.paypal.com/paypalme/wadahfoundation" class="btn btn-secondary">Donate</a></p>
+            <a href="https://www.paypal.com/paypalme/wadahfoundation" class="float-fix btn btn-secondary btn-sm" target="_blank" >Donate</a></p>
         </div>
       </div>
     </div>

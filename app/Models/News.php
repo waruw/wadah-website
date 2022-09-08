@@ -9,7 +9,11 @@ class News extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'category_id', 'image', 'article', 'slug', 'created_at'];
+    //allow all array to fill
+    protected $fillable = ['title', 'category_id', 'image', 'article', 'slug', 'created_at', 'title_id', 'article_id', 'photos'];
+
+    //guarder cant fill field
+    // protected $guarded = ['*'];
 
     public function category()
     {

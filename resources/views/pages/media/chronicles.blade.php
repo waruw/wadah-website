@@ -46,81 +46,81 @@
         <div class="row mb-2">
             
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/12pPcsCzN6yD5sifcIPhYdF6DhF8t49AZ/view')}}" target="_blank">
+                  <a href="{{ url('https://drive.google.com/file/d/1-EqlN4m9NbxbFowSr10zXxAewTU1lWs4/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/chronicles/2022-4.jpg')}}" widht="auto" height="200"></a>
                 </div>
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                    <a href="{{ url('https://drive.google.com/file/d/13hREQDNrcxWBhBMzfhkqxaK6sb3H8IcS/view')}}"target="_blank">
+                    <a href="{{ url('https://drive.google.com/file/d/1rXOeJhFAlGgLpkYAvc7addt48KtB3WNb/view')}}"target="_blank">
                       <img class="centerpic" src="{{asset('img/media/chronicles/2021-8.jpg')}}" widht="auto" height="200"></a>
                   </div>
       
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                    <a href="{{ url('https://drive.google.com/file/d/1vOnh69CgRFopArrOeEOKu1l-lFNKfYIV/view')}}">
+                    <a href="{{ url('https://drive.google.com/file/d/18X_Bit-qH3vWbnBCzmfWpwUYIxWOnKVQ/view')}}" target="_blank">
                       <img class="centerpic" src="{{asset('img/media/chronicles/2021-1.jpg')}}" widht="auto" height="200"></a>
                   </div>  
       
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                    <a href="{{ url('https://drive.google.com/file/d/1thCFJzalE0oyqOygJj7WcvmY7dNS5oCv/view')}}">
+                    <a href="{{ url('https://drive.google.com/file/d/1kt1YiYD34XQ8CTISlQUjGRDSUwcNmPvC/view')}} "target="_blank">
                       <img class="centerpic" src="{{asset('img/media/chronicles/2020-6.jpg')}}" widht="auto" height="200"></a>
                   </div>
       
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                    <a href="{{ url('https://drive.google.com/file/d/1opuDOMsT-HBMYY3Hirg90srUBEGgPXBE/view')}}">
+                    <a href="{{ url('https://drive.google.com/file/d/1ubYHDN9pW79VeWqeaOTJyx4Cz9dJtjCh/view')}}" target="_blank">
                       <img class="centerpic" src="{{asset('img/media/chronicles/2019-12.jpg')}}" widht="auto" height="200"></a>
                   </div>
       
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/1kvOVezFB3B2AHKLUGxV4KqQDSGRgtrlS/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/1SiA8UM7b1jyQsiFrAJg5JQecmJPlh7Jl/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/chronicles/2019-8.jpg')}}" widht="auto" height="200"></a>
                 </div>
         
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/1YUEtFZwCCQ72wuozE0f7C0iMQSLpd6Eo/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/13g-jGRSJVepyCzipYO1K8Nrjkkbdsoko/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/chronicles/2019-6.jpg')}}" widht="auto" height="200"></a>
                 </div>
         
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/1D4sFeavJkwUvWjnPD3meqCHTV0oJGyiK/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/chronicles/2018-12.jpg')}}" widht="auto" height="200"></a>
                 </div>
       
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/1DqUzcMta78ajEKK6gDezgv40fbDORFRO/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/1_dHxWHG790S6alP9WImCZwLrtiGWc6j1/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/chronicles/2018-8.jpg')}}" widht="auto" height="200"></a>
                 </div>
       
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/1-WoSI4LbG6HzrhD_1NCVidZEVf1mux7l/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/12SWJucsKJheAhxxR05CwmcJ9Wis0c19a/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/chronicles/2018-4.jpg')}}" widht="auto" height="200"></a>
                 </div>
           
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/1WRYuUjFso3iZZRtG0d7e2bB8VpvCUriy/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/1MixfiXpECF01B3u2WCjbFfqebBEK4BAv/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/chronicles/2017-12.jpg')}}" widht="auto" height="200"></a>
                 </div>
           
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/1O0SO1bpN1jnRmePLahGK1rl1V08558m8/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/12A1cuOXHMZeyJNkHeYE8Gwq9ZD_whKfD/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/chronicles/2017-8.jpg')}}" widht="auto" height="200"></a>
                 </div>
       
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/16galF-tNnE62iEkHTH7hNFfVM-iU-Bs3/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/1PUg1NDYIutwVvIcborTH0Zy4IoMrIfvC/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/chronicles/2017-4.jpg')}}" widht="auto" height="200"></a>
                 </div>
       
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/1J8DZA2WtL6JpKwhEkFI_qammG2k6WE7Z/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/11T3YRJuQuCnZ1OB7K0atuFw-pcYliwIW/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/chronicles/2016-12.jpg')}}" widht="auto" height="200"></a>
                 </div>
             
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/1rj0tsYhn7zkTJO3SX4HP6328IrCTzHMo/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/1Zr2vZt7BfEkLh2Ul62-VLht-PLnz6-Nn/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/chronicles/2016-8.jpg')}}" widht="auto" height="200"></a>
                 </div>  
       
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/1oeBZ3wE45o0lHw_QE9pu-MgW74EUU-TM/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/19oQFSix7DeDUxz4BWYeCEoc0EmJsMZ3V/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/chronicles/2016-4.jpg')}}" widht="auto" height="200"></a>
                 </div>  
                   
@@ -167,112 +167,112 @@
         <div class="row mb-2">
             
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-              <a href="{{ url('https://drive.google.com/file/d/1VsjYAfE0mkdzdLIymPLHRw-irLVLTpf0/view')}}">
+              <a href="{{ url('https://drive.google.com/file/d/1_RwRWrNXybdN3nSjiaqwhYIPpnHzpmtk/view')}}" target="_blank">
                 <img class="centerpic" src="{{asset('img/media/newsletter/2015-12.jpg')}}" widht="auto" height="200"></a>
               </div>  
 
           <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-              <a href="{{ url('https://drive.google.com/file/d/107YVu4PWA52zdt-bNQfUelCqpcpzKbfh/view')}}">
+              <a href="{{ url('https://drive.google.com/file/d/1sRQQbg8h4WZ9NZ4QVmaQBGSndyKb3Mnm/view')}}" target="_blank">
                 <img class="centerpic" src="{{asset('img/media/newsletter/wgg.jpg')}}" widht="auto" height="200"></a>
             </div>  
 
           <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-              <a href="{{ url('https://drive.google.com/file/d/12bftYhVCdRYOIQA_6NbI9zLx8ENyJ2-8/view')}}">
+              <a href="{{ url('https://drive.google.com/file/d/1QQVqZze0sNpLLw5M9w23cPu4pYSIyUBa/view')}}" target="_blank">
                 <img class="centerpic" src="{{asset('img/media/newsletter/2015-4.jpg')}}" widht="auto" height="200"></a>
             </div>  
           
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/1cnMQdCm3-_Li7DWqvyUDuq5J2LQHVKk7/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/1HZRtdxNsAVOYllLn5EKFrV9g_F7hqRMD/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/newsletter/2014-12.jpg')}}" widht="auto" height="200"></a>
                 </div>  
 
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/1NYj8_BnUKSTLTD2217a7fZrjGrcUb4J0/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/1Xeb8MRptLn7fnpzxkDmhDdoDMOk9jN4E/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/newsletter/2014-8.jpg')}}" widht="auto" height="200"></a>
                 </div>  
 
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/1uKLBWt2zPef2iHfeyFcUmqtpvq6dAome/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/1rXesVk8lE_GKr1xO4nn_1ouAtXenh4Iq/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/newsletter/2014-4.jpg')}}" widht="auto" height="200"></a>
                 </div>  
 
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                  <a href="{{ url('https://drive.google.com/file/d/1pHTxKKMkdvQ3Gu4d-Wr5FVM5nbXny_ND/view')}}">
+                  <a href="{{ url('https://drive.google.com/file/d/137ik2tlYGTz2vqOlf2hv-bAUod6wIBOB/view')}}" target="_blank">
                     <img class="centerpic" src="{{asset('img/media/newsletter/2013-12.jpg')}}" widht="auto" height="200"></a>
                 </div>  
 
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/1pyxpBZcXDMWGKu7pE5sbFUnIcwcAkRjl/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1LR768aSeD0eUJDYxZu3ZJis7DLMt-cjD/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/2013-7.jpg')}}" widht="auto" height="200"></a>
               </div>  
       
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/1yxfy34ACYkQ3_R9rpOqunnRSLBibyEoo/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1ZmKtjwST71pqVCbZ5dgiMP1fVcrN8Lgs/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/2013-4.jpg')}}" widht="auto" height="200"></a>
               </div>
       
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/1Mvx_bk5jE1EOehNeyg_BJUVaD74SH6SR/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1z7f7buTAo41pXfBy2eEO3rnigGZTIEBd/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/2012-11.jpg')}}" widht="auto" height="200"></a>
               </div>
 
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/1DdKfGnriA5BWcIATL5fCslwIpxj1ICmV/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1rag8wleLDWloD-HRDGcXG9Pzxe2YdCxN/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/2012-7.jpg')}}" widht="auto" height="200"></a>
               </div>
 
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/1Ye-d6Ku3TfMn_QImnYwBVy3OJ86Rfb3i/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1DVkyOKYb2LfHlHVrkT4n3Y3yDW1Ivfzd/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/2012-3.jpg')}}" widht="auto" height="200"></a>
               </div>
         
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/1L-vRkd5glQXuphBgZSm4dCkr7XrGohSG/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1rLCvY3fGfy04HpDedXAacnjHJ8gxRNqi/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/2011-12.jpg')}}" widht="auto" height="200"></a>
               </div>
         
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/19bkhOd0BbXhAinMacDec1NAYp8ECz3R4/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1uyVPd1cAVUPYoMVwN1u2htiuhdM2dmAK/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/2011-8.jpg')}}" widht="auto" height="200"></a>
               </div>
 
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/124ZFZLTAltOauhgL5Zh2t7ew0Jpu8KE4/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1pPh6wbMMYwiAGsQYPqms0Y8ckssRZwnt/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/2011-4.jpg')}}" widht="auto" height="200"></a>
               </div>
 
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/1iQWePr81Rm2Fy9oz10QGuwhjos30veI0/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1BFvNYil6s3-K1qyD1MKZL9KtnKVawJ0i/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/vol3no3.jpg')}}" widht="auto" height="200"></a>
               </div>
           
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/1CZvfkFCPOScTADvv2qezrqXe1m7uhGDW/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1usEUhC98H-BRNdBF4FsTBAYk8c6BNZxz/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/vol3no2.jpg')}}" widht="auto" height="200"></a>
               </div>  
 
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/124ZFZLTAltOauhgL5Zh2t7ew0Jpu8KE4/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1i7HhlqaikA0qvziv-waZaKGdZGC8_qVa/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/vol3no1.jpg')}}" widht="auto" height="200"></a>
               </div>  
 
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/18nNvZSsjLgLEfHuuUsSdRxzmQxO36ial/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1uziUhwQtmzqVaj6NuvQXwlIfrB9lLwED/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/2009-3.jpg')}}" widht="auto" height="200"></a>
               </div>  
 
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/1rQHQ8Za4ogEdQFYj3jlk__zofOv2QjoT/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1uKB-FdBX2dOb7GnPmc_CmB77q14UtPAn/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/2009-2.jpg')}}" widht="auto" height="200"></a>
               </div>  
 
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/19c2IR4z7UnoiU03elqp8ps72JlRLPkjS/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1KIFBdQm9LGsgL7Ozl-UtgxJ2TPXTrf-5/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/2009-1.jpg')}}" widht="auto" height="200"></a>
               </div>  
 
             <div class="col-6 col-sm-4 col-md-4 col-lg-2 mb-2">
-                <a href="{{ url('https://drive.google.com/file/d/1FaloALMQ3e1y2xON_22GQLoMQ0B7T07q/view')}}">
+                <a href="{{ url('https://drive.google.com/file/d/1GVU7t8pJj4Na4cdVMO0xpDcd5puMTBM5/view')}}" target="_blank">
                   <img class="centerpic" src="{{asset('img/media/newsletter/2008.jpg')}}" widht="auto" height="200"></a>
               </div>  
                   

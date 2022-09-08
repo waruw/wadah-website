@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\News;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class NewsController extends Controller
 {
@@ -17,6 +18,8 @@ class NewsController extends Controller
         $allNews=News::latest()->paginate(5);
         $allContent=News::latest()->paginate(4);
         $allReads=News::latest()->paginate(12);
+
+        // dd($allNews);
 
         return view('pages.media.news.news', compact('allNews', 'allContent', 'allReads'));
     }
@@ -52,6 +55,17 @@ class NewsController extends Controller
     {
         $news = News::where('slug', $slug)->first();
         $categoryId = $news->category_id;
+
+        if(Session::get('locale') == 'id'){
+            $news->title = $news->title_id;
+            $news->article = $news->article_id;
+        }
+
+        if($news->photos != "") {
+            $news->photos = explode(";;", $news->photos);
+        }
+
+        // dd($news->photos);
 
         $newsByCategory = News::where('category_id', $categoryId)->paginate(5);
 

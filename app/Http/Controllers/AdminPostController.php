@@ -37,9 +37,10 @@ class AdminPostController extends Controller
     public function store(Request $request)
     {
         if($request->hasFile('image')){
-            $file_name = time().$request->image->getClientOriginalExtension(); 
+            $file_name = time(). '.' . $request->image->getClientOriginalExtension();
             $request->image->move(public_path('/img/news'), $file_name);
             $file = '/img/news/'.$file_name;
+            
         }
         else{
             $file='/img/news/default.png';
@@ -47,13 +48,14 @@ class AdminPostController extends Controller
         News::create(
             [
                 'title' => $request->title,
+                'title_id' => $request->title_id,
                 'category_id' => $request->category_id,
                 'image' => $file,
-                'image2' =>$file,
                 'article' => $request->article,
-                'articleid' => $request->articleid,
+                'article_id' => $request->article_id,
                 'created_at' => date('Y-m-d', strtotime($request->created_at)),
                 'slug' => Str::slug($request->title, '-'),
+                'photos' => $request->photos,
             ]
         );
         return redirect()->route('adminnews.index')->with('success', 'Post Success');

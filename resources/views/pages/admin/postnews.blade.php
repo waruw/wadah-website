@@ -32,12 +32,17 @@
         <div class="alert alert-success">
             {{ session()->get('success') }}
         </div>
-    @endif
+      @endif
         <form method="POST" action="{{route('adminnews.post')}}" enctype="multipart/form-data">
             @csrf
             <div class="mb-3">
               <label for="title" class="form-label">Title</label>
               <input type="text" name="title" class="form-control" placeholder="Title" id="title">
+            </div>
+
+            <div class="mb-3">
+              <label for="title" class="form-label">TitleId</label>
+              <input type="text" name="title_id" class="form-control" placeholder="Title" id="title">
             </div>
 
             <div class="mb-3">
@@ -65,6 +70,16 @@
                 <label for="floatingTextarea2">Article</label>
                 <textarea class="form-control" name="article" placeholder="Article" id="article"></textarea>
               </div>
+
+              <div class="mb-3">
+                <label for="floatingTextarea2">ArticleId</label>
+                <textarea class="form-control" name="article_id" placeholder="Article" id="article_id"></textarea>
+              </div>
+
+              <div class="mb-3">
+                <label for="photos">Photos</label>
+                <textarea class="form-control" name="photos" placeholder="" id="photos"></textarea>
+              </div>
               
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
@@ -80,12 +95,27 @@
       alignment: {
             options: [ 'left', 'right', 'center', 'justify' ]
         },
-     
+        
     })
     .catch( error => {
     console.error( error );
     } );
     </script>
+
+<script>
+  ClassicEditor
+  .create( document.querySelector( '#article_id' ), {
+    alignment: {
+          options: [ 'left', 'right', 'center', 'justify' ]
+      },
+      
+  })
+  .catch( error => {
+  console.error( error );
+  } );
+  </script>
+
+    
 
     
 </body>

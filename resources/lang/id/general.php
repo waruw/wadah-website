@@ -61,6 +61,9 @@ return [
     'simil' => 'Kategori Sejenis:',
     'back' => 'KEMBALI',
     'leavecom' => 'Tinggalkan komentar',
+    'previous' =>'<< SEBELUMNYA',
+    'more' => 'LAINNYA >>',
+    'doc' => 'Dokumentasi:',
 
 
 

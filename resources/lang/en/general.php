@@ -59,7 +59,9 @@ return [
     'simil' => 'Similar Category:',
     'back' => 'BACK',
     'leavecom' => 'Leave a comment',
-    
+    'previous' =>'<< PREVIOUS',
+    'more' => 'MORE >>',
+    'doc' => 'Documentation:',
 
 
 

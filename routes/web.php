@@ -22,7 +22,7 @@ use App\Http\Controllers\AdminPostController;
 
 if(file_exists(app_path('Http/Controllers/LocalizationController.php')))
 {
-    Route::get('lang/{locale}', [App\Http\Controllers\LocalizationController::class , 'lang']);
+    Route::get('/lang/{locale}', [App\Http\Controllers\LocalizationController::class , 'lang']);
     Route::get('/lang/{locale}', [App\Http\Controllers\LocalizationController::class , 'lang']);
 }
 
@@ -144,7 +144,7 @@ Route::get('/gallery', function () {
     return view('pages.media.gallery');
 });
 
-Route::get('/admin/post', [AdminPostController::class, 'index'])->name('adminnews.index');
-Route::post('/admin/post', [AdminPostController::class, 'store'])->name('adminnews.post');
+Route::get('/admin/postnewswadah', [AdminPostController::class, 'index'])->name('adminnews.index');
+Route::post('/admin/postnewswadah', [AdminPostController::class, 'store'])->name('adminnews.post');
 
 

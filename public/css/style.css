@@ -401,7 +401,7 @@ header.masthead .masthead-heading {
 }
 
 #hero .container {
-  padding-top: 35px;
+  padding-top: 0px;
   padding-left: 120px;
   padding-right: 120px;
 }
@@ -534,7 +534,8 @@ header.masthead .masthead-heading {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 26px 1px;
+  padding-top: 20px;
+  padding-bottom: 25px;
   overflow: hidden;
 }
 
@@ -859,64 +860,105 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services/Program/Our Programs
+# Program/Our Programs
 --------------------------------------------------------------*/
-.services .icon-box {
+.program .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
 }
-.services .icon-boxx{
-box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  padding: 50px 30px;
-  transition: all ease-in-out 0.4s;
-  background: #f3f5fa;
-}
 
-.services .icon-box .icon {
+.program .icon-box .icon {
   margin-bottom: 10px;
 }
 
-.services .icon-box .icon i {
+.program .icon-box .icon i {
   color: #208b3a;
   font-size: 36px;
   transition: 0.3s;
 }
 
-.services .icon-box h4 {
+.program .icon-box h4 {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 24px;
 }
 
-.services .icon-boxpen h4 a {
+.program .icon-boxpen h4 a {
   color: #297bbf;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-boxkes h4 a {
+.program .icon-boxkes h4 a {
   color: #208b3a;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-boxpem h4 a {
+.program .icon-boxpem h4 a {
   color: #a21942;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box p {
+.program .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.program .icon-box:hover {
   transform: translateY(-10px);
 }
 
-.services .icon-box:hover h4 a {
+.program .icon-box:hover h4 a {
   color: #444444 ;
+}
+
+/*--------------------------------------------------------------
+# News/Latest News
+--------------------------------------------------------------*/
+
+.news-padding-bot {
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.icon-boxx{
+  box-shadow: 0px 0 25px 0 rgba(3, 3, 3, 0.1);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    transition: all ease-in-out 0.4s;
+    background: #f8f8fa;
+  }
+
+.news-boxx{
+  font-size: 13px;
+  font-style: italic;
+}
+
+.parag-box{
+  text-align:center;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.read-box{
+  margin-top: 10px;
+  position:relative;
+  text-align: center;
+  font-size: 14px;
+}
+
+.morenews-box{
+  padding-top: 15px;
+  padding-bottom: "";
+}
+
+.morenews-img{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -1723,7 +1765,7 @@ box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 #footer .footer-newsletter form {
   margin-top: 30px;
   background: #fff;
-  padding: 6px 10px;
+  padding: 6px 6px;
   position: relative;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
@@ -1757,7 +1799,7 @@ box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 40px 0 20px 0;
   background: #fff;
 }
 
@@ -1853,7 +1895,7 @@ box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 
 #footer .footer-bottom {
   padding-top: 00px;
-  padding-bottom: 10px;
+  padding-bottom: px;
   color: #fff;
 }
 
